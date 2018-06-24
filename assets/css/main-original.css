@@ -1,5 +1,80 @@
 @import url(font-awesome.min.css);
 
+/*----------------------------------------------------*/
+
+.faq-nav {
+    background: #358c3c;
+}
+.faq-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: #358c3c;
+}
+
+.faq-nav .metismenu {
+    background: #358c3c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.faq-nav .metismenu li + li {
+  margin-top: 5px;
+}
+
+.faq-nav .metismenu li:first-child {
+  margin-top: 5px;
+}
+.faq-nav .metismenu li:last-child {
+  margin-bottom: 5px;
+}
+
+
+.faq-nav .metismenu > li {
+    /*-webkit-box-flex: 1;
+    -ms-flex: 1 1 0%;
+    flex: 1 1 0%;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+.faq-nav .metismenu a {
+    position: relative;
+    display: block;
+    padding: 13px 15px;
+    color:white;
+    outline-width: 0;
+    transition: all .3s ease-out;
+}
+
+.faq-nav .metismenu ul a {
+    padding: 10px 15px 10px 30px;
+}
+
+.faq-nav .metismenu ul ul a {
+    padding: 10px 15px 10px 45px;
+}
+
+.faq-nav .metismenu a:hover,
+.faq-nav .metismenu a:focus,
+.faq-nav .metismenu a:active {
+    color: #f8f9fa;
+    text-decoration: none;
+    background: #205524;
+}
+
+/*------------------------------------------------------------*/
+
 	.green-font {
 		background-color: rgba(53, 140, 60, 0.8);
 		/*opacity: .3;*/
