@@ -2,6 +2,16 @@
 
 /*----------------------------------------------------*/
 
+.faq_row {
+	width: 100%;
+	display: inline-block;
+}
+
+.faq_itm{
+	width: 20em;
+	display: table-cell;
+}
+
 .faq-nav {
     background: #358c3c;
 }
