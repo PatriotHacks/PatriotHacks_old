@@ -1,3 +1,5 @@
 $(function(){
-	$('#menu').metisMenu();
+	$('#menu').metisMenu({
+		toggle: false
+	});
 })

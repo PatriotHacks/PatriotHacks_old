@@ -2,6 +2,16 @@
 
 /*----------------------------------------------------*/
 
+.faq_row {
+	width: 100%;
+	display: inline-block;
+}
+
+.faq_itm{
+	width: 25em;
+	display: table-cell;
+}
+
 .faq-nav {
     background: #358c3c;
 }
@@ -2024,8 +2034,8 @@
 		button.fit,
 		.button.fit {
 			display: block;
-			margin: 0 0 1em 0;
-			width: 100%;
+			margin: 0 0 1em 3em;
+			width: 90%;
 		}
 
 		input[type="submit"].small,
@@ -3293,7 +3303,7 @@
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 5em 5em 3em 3em ;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3549,7 +3559,7 @@
 /* Wrapper (main) */
 
 	#sidebar + #wrapper {
-		margin-left: 18em;
+		margin-left: 16em;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3576,7 +3586,7 @@
 /* Footer */
 
 	#sidebar + #wrapper + #footer {
-		margin-left: 18em;
+		margin-left: 16em;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3617,7 +3627,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 18em;
+		width: 16em;
 		z-index: 10000;
 	}
 
