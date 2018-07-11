@@ -15,6 +15,12 @@
 .faq-nav {
     background: #358c3c;
 }
+
+.sponsor {
+	width: 40em;
+	position: relative;
+}
+
 .faq-nav ul {
     padding: 0;
     margin: 0;
