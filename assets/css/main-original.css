@@ -16,8 +16,29 @@
     background: #358c3c;
 }
 
-.sponsor {
-	width: 40em;
+/*
+ * Old
+ * .sponsor {
+ *	width: 40em;
+ *	position: relative;
+ * }
+ * */
+
+.sponsor-large{
+	width: 80%;
+	left 20%;
+	position: relative;
+}
+
+.sponsor-medium{
+	width: 60%;
+	left: 30%;
+	position: relative;
+}
+
+.sponsor-small{
+	width: 42%;
+	left: 38%;
 	position: relative;
 }
 
