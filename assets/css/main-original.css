@@ -2751,10 +2751,6 @@
 				width: 100%;
 			}
 
-		#main-logo {
-			width: 520px;
-		}
-
 		@media screen and (max-width: 1280px) {
 
 			#main-logo {
