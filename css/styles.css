@@ -19,12 +19,12 @@ html {
 
 html, button, input, select, textarea {
   font-family: inherit; }
-
+/*
 <!-- Navigation bar-->
 
 
 
-<!-- Navigation bar ends here -->
+<!-- Navigation bar ends here -->*/
 
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
@@ -1863,7 +1863,7 @@ input.field {
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
-  ), url(../img/background_Gmu.jpg) 50% no-repeat;
+  ), url(../img/background.jpg) 50% no-repeat;
   background-size: cover;
   color: #fff;
   opacity: 0.9 }
@@ -2126,8 +2126,7 @@ input.field {
       margin-bottom: 0; } }
 
 .partner {
-     height: 94px;
-    width: 145px;
+     height: 60px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   margin-bottom: 20px; }
