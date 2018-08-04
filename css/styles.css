@@ -198,7 +198,7 @@ hr, .hr {
 
 ul, ol {
   margin: 20px 0;
-  padding: 0 0 0 40px; }
+  padding: 0 0 0 0; }
 
 dl:before, dl:after {
   content: " ";
