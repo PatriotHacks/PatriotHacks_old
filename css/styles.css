@@ -1869,6 +1869,11 @@ input.field {
     rgba(0, 0, 0, 0.5)
   ), url(../img/background.jpg) 50% no-repeat;
   background-size: cover;
+
+  /*Credit to RamHacks for this*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   color: #fff;
   opacity: 0.9 }
 
