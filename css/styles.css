@@ -647,7 +647,8 @@ html input[disabled] {
   min-width: 33%; }
   @media only screen and (max-width: 1250px) {
     .ucol-1-3 {
-      float: left; } }
+      float: left;
+      width: 100% } }
 
 .col-2-3 {
   width: 66.66667%; }
@@ -2109,6 +2110,11 @@ input.field {
   vertical-align: middle;
   text-transform: uppercase;
   color: #828282; }
+  @media only screen and (max-width: 425px){
+  	.event-schedule-name{
+		padding: 0px 12px;
+	}
+  }
 
 .register-form {
   background-color: #fff;
@@ -2129,7 +2135,7 @@ input.field {
     margin-right: 1em; }
 
 .sponsor {
-  height: 100px;
+  height: 55px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   display: block;
@@ -2148,7 +2154,7 @@ input.field {
       margin-bottom: 0; } }
 
 .partner {
-     height: 60px;
+     height: 55px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   margin-bottom: 20px; }
