@@ -1897,6 +1897,15 @@ input.field {
         display: inline-block;
         margin: 0 10px; } }
 
+.faq_row {
+  width: 100%;
+}
+  @media only screen and (min-width: 768px){
+    .faq_row{
+      width: 48%;
+    }
+  }
+
 .objective {
   position: relative;
   width: 140px;
