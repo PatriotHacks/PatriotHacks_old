@@ -2233,7 +2233,11 @@ input.field {
 
 .team-member-img {
   width: 100%;
-  border-radius: 100%;}
+  object-fit: cover;
+
+  border-radius: 100%;
+  /*border: 1px solid;*/
+  border-color: #B4B2B2;}
   @media only screen and (min-width: 1024px){
   	.team-member-img {
 		height: 100px;
@@ -2256,6 +2260,20 @@ input.field {
 .team-member-p {
   margin: 0;
 
+}
+
+.team-member-p-name {
+	font-size: 0.975rem;
+}
+
+.team-member-p-role {
+  font-size: 0.775rem;
+  height: 15px;
+  margin:-5px 0 2px 0;
+}
+
+.team-member-p-quote {
+  font-size: 0.675rem;
 }
 
 .event-location-block {
