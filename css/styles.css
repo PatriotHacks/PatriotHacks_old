@@ -641,7 +641,7 @@ html input[disabled] {
 .col-1-3 {
   width: 33.33333%; }
 
-/* For ((u))npadded ordering*/
+/* For (u)npadded ordering*/
 .ucol-1-3 {
   /*float: left;*/
   min-width: 33%; }
@@ -2143,41 +2143,75 @@ input.field {
     margin-left: 1em;
     margin-right: 1em; }
 
+.cohost {
+  height: 60px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: block;
+  margin-bottom: 20px; }
+  @media only screen and (min-width: 360px) {
+    .cohost {
+      height: 80px;
+      margin-bottom: 0; } }
+  @media only screen and (min-width: 720px) {
+    .cohost {
+      height: 100px;
+      margin-bottom: 0; } }
+  @media only screen and (min-width: 980px) {
+    .cohost {
+      height: 125px;
+      margin-bottom: 0; } }
+
 .sponsor {
-  height: 55px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   display: block;
   margin-bottom: 20px; }
   @media only screen and (min-width: 360px) {
     .sponsor {
-      height: 60px;
       margin-bottom: 0; } }
   @media only screen and (min-width: 720px) {
     .sponsor {
-      height: 80px;
       margin-bottom: 0; } }
   @media only screen and (min-width: 980px) {
     .sponsor {
-      height: 100px;
       margin-bottom: 0; } }
+
+.sponsor-bronze {
+  height: 40px;}
+  @media only screen and (min-width: 360px) {
+  	.sponsor-bronze {
+	  height: 60px;
+	}
+  }
+  @media only screen and (min-width: 720px) {
+  	.sponsor-bronze {
+	  height: 80px;
+	}
+  }
+  @media only screen and (min-width: 980px) {
+  	.sponsor-bronze {
+	  height: 100px;
+	}
+  }
+
 
 .partner {
      height: 55px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  margin-bottom: 20px; }
+  margin-bottom: -40px; }
   @media only screen and (min-width: 360px) {
     .partner {
-      height: 25px;
-      margin-bottom: 0; } }
+      height: 60px;
+      margin-bottom: -40px; } }
   @media only screen and (min-width: 720px) {
     .partner {
-      height: 40px;
-      margin-bottom: 0; } }
+      height: 80px;
+      margin-bottom: -35px; } }
   @media only screen and (min-width: 980px) {
     .partner {
-      height: 60px;
+      height: 100px;
       margin-bottom: 0; } }
 
 .sponsor-facebook {
@@ -2269,11 +2303,15 @@ input.field {
 .team-member-p-role {
   font-size: 0.775rem;
   height: 15px;
-  margin:-5px 0 2px 0;
+  margin:-2px 0 8px 0;
+  line-height: 1em;
 }
 
 .team-member-p-quote {
   font-size: 0.675rem;
+  line-height: 1em;
+  height: 5px;
+  margin: 0px 0px 20px 0px;
 }
 
 .event-location-block {
