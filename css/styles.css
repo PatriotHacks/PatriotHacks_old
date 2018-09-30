@@ -2231,6 +2231,23 @@ input.field {
 	}
   }
 
+.sponsor-bronze-small {
+  height: 30px;}
+  @media only screen and (min-width: 360px) {
+  	.sponsor-bronze-small {
+	  height: 30px;
+	}
+  }
+  @media only screen and (min-width: 720px) {
+  	.sponsor-bronze-small {
+	  height: 40px;
+	}
+  }
+  @media only screen and (min-width: 980px) {
+  	.sponsor-bronze-small {
+	  height: 55px;
+	}
+  }
 
 .partner {
      height: 55px;
