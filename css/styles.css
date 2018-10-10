@@ -657,9 +657,9 @@ html input[disabled] {
       width: 100% } }
 
 /* For (t)rack organization*/
-.tcol-1-2 {
+.tcol-1-4 {
   float: left;
-  width: 50%; }
+  width: 25%; }
   @media only screen and (max-width: 768px) {
     .ucol-1-2 {
       float: left;
@@ -2028,7 +2028,7 @@ input.field {
   }
   @media only screen and (min-width: 320px) {
 	#tracks{
-      margin-top: 120px;} }
+      margin-top: 120px;/eve} }
   @media only screen and (min-width: 425px) {
 	#tracks{
       margin-top: 25px; } }
@@ -2047,17 +2047,17 @@ input.field {
       height: 550px; } }
   @media only screen and (min-width: 768px) {
     .event-tracks{
-      height: 400px; } }
+      height: 475px; } }
 
 .event-track {
-  background-color: #ececec;
+  background-color: #fff;
 
-  border: solid;
+  /*border: solid;
   border-width: 1px;
-  border-color: #aaa; 
-  border-radius: 10px;
+  border-color: #ddd; 
+  border-radius: 2px;*/
 
-  width: 60%;
+  width: 100%;
   display: inline-block;
 
   font-size: 1em;
