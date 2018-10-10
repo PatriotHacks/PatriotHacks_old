@@ -2041,13 +2041,19 @@ input.field {
   }
   @media only screen and (min-width: 320px) {
     .event-tracks{
-      height: 650px; } }
+      height: 575px; } }
+  @media only screen and (min-width: 375px) {
+    .event-tracks{
+      height: 525px; } }
   @media only screen and (min-width: 425px) {
     .event-tracks{
       height: 550px; } }
   @media only screen and (min-width: 768px) {
     .event-tracks{
       height: 475px; } }
+  @media only screen and (min-width: 1440px) {
+    .event-tracks{
+      height: 525px; } }
 
 .event-track {
   background-color: #fff;
