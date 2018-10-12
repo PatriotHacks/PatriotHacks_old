@@ -2472,30 +2472,31 @@ input.field {
   width: 100%; }
 
 .location-box {
+  bottom: 0;
+  left: 0;
+  margin-top: 0;
+  margin-left: 0;
+  top: auto;
   background-color: #fff;
-  position: absolute;
-  width: 300px;
+  position: relative;
   min-height: 140px;
-  top: 50%;
-  left: 50%;
-  margin-top: -70px;
-  margin-left: -150px;
   z-index: 9990; }
-  @media only screen and (min-width: 740px) {
-    .location-box {
-      top: auto;
-      bottom: 0;
-      left: 0;
-      margin-top: 0;
-      margin-left: 0; } }
 
 .location {
   padding-bottom: 1em; }
 
+  .location-box-container {
+    width: 100%;
+    position: relative;
+    left: 0%;
+    bottom: 0em;
+    margin-left: 0px; }
+
+/*
 @media only screen and (min-width: 740px) {
   .location-box-container {
     width: 720px;
-    position: absolute;
+    position: relative;
     left: 50%;
     bottom: 2em;
     margin-left: -360px; } }
@@ -2503,19 +2504,19 @@ input.field {
 @media only screen and (min-width: 980px) {
   .location-box-container {
     width: 960px;
-    position: absolute;
+    position: relative;
     left: 50%;
-    bottom: 2em;
+    bottom: 0em;
     margin-left: -480px; } }
 
 @media only screen and (min-width: 1140px) {
   .location-box-container {
     width: 1120px;
-    position: absolute;
+    position: relative;
     left: 50%;
     bottom: 2em;
     margin-left: -560px; } }
-
+*/
 .footer {
   color: #f3f3f3;
   background: #525b64; }
