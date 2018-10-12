@@ -657,13 +657,27 @@ html input[disabled] {
       width: 100% } }
 
 /* For (t)rack organization*/
+.tcol-1-2 {
+  float: left;
+  width: 50%; }
+  @media only screen and (max-width: 768px) {
+    .tcol-1-2 {
+      float: left;
+      width: 50% } }
+.tcol-1-3 {
+  float: left;
+  width: 33%; }
+  @media only screen and (max-width: 768px) {
+    .tcol-1-3 {
+      float: left;
+      width: 33% } }
 .tcol-1-4 {
   float: left;
   width: 25%; }
   @media only screen and (max-width: 768px) {
-    .ucol-1-2 {
+    .tcol-1-4 {
       float: left;
-      width: 100% } }
+      width: 25% } }
 
 .col-1-3 {
   width: 33.33333%; }
@@ -2041,19 +2055,22 @@ input.field {
   }
   @media only screen and (min-width: 320px) {
     .event-tracks{
-      height: 575px; } }
+      height: 700px; } }
   @media only screen and (min-width: 375px) {
     .event-tracks{
-      height: 525px; } }
+      height: 675px; } }
   @media only screen and (min-width: 425px) {
     .event-tracks{
-      height: 550px; } }
+      height: 675px; } }
   @media only screen and (min-width: 768px) {
     .event-tracks{
-      height: 475px; } }
+      height: 725px; } }
+  @media only screen and (min-width: 1024px) {
+    .event-tracks{
+      height: 800px; } }
   @media only screen and (min-width: 1440px) {
     .event-tracks{
-      height: 525px; } }
+      height: 900px; } }
 
 .event-track {
   background-color: #fff;
