@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>PatriotHacks</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PatriotHacks</title>
 
-<meta name="description" content="">
-<meta name="theme-color" content="#2CC7C1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--favicon-->
-<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
-<!--Page styling-->
-<link rel="stylesheet" href="css/styles.css">
-<!--Stylized icons from font-awesome-->
-<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<meta name="description" content="">
+	<meta name="theme-color" content="#2CC7C1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--favicon-->
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+
+	<!--Page styling-->
+	<link rel="stylesheet" href="css/styles.css">
+	<!--Stylized icons from font-awesome-->
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<!-- Scripts -->
 
 </head>
+
+<!-- 2019 Season MLH Badge -->
+<!--
 <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+-->
+
 <body>
 	<!--<div class="btn-group btn-group-lg-4" role="group" align="right" style="background-color:#fce519;">
   <a href= "#home"><button type="button" class="btn btn-secondary" style= " background-color:#6bcc2b;color:#ffffff;">Home</button>
@@ -33,19 +42,49 @@
 
 </div>
 	<section id="home">
-	<div class="banner pad-top-45 pad-bottom-45 pad-top-60-m pad-bottom-60-m">
+	<div class="banner pad-top-45 pad-bottom-45 pad-top-60-m pad-bottom-60-m" style = "
+		padding-top: 175px;
+		padding-bottom: 300px;		
+	">
 		<div class="container text-center pad-top-20-m pad-bottom-20-m pad-top-55-l pad-bottom-55-l">
-			<h1 id="logo" class="logo">
-				<img style="105%" src="img/logo-2018-trans.png">
-			</h1>
-			<!--<h1 style="font-size: 65px; color: white; line-height: 100px; font-weight: bold;">
-				PatriotHacks
-			</h1>-->
-			<h1 id="logo" class="logo">
-				<img src="img/letters_without_background.png">
-			</h1>
-			<h2 class="banner-heading">George Mason University</h2>
-			<h2 class="banner-heading">Fall 2019</h2>
+			<div class = "container" style = "
+				width: 325px;
+				margin: 0px 0px 0px 0px;
+				right: 28%;
+				padding: 0;
+				float: left;
+			">
+				<h2 class="banner-heading">Fall 2019</h2>
+				<h2 class="banner-heading">George Mason University</h2>
+			</div>
+			
+			<div class = "container" style = "
+				width: 325px;
+			    margin: -100px 0 0 0;
+				float: right;
+			">
+				<div style = "	
+			    	position: absolute;
+		    		width: 100px;
+	    			height: 100px;
+    				left: 55%;
+    				top: 5%;
+    				z-index: -1000;	
+				">
+						<canvas id = "canvas" width = "600px" height = "550px">
+						</canvas>
+				</div>
+				<h1 id="logo" class="logo">
+					<img style="105%" src="img/logo-2018-trans.png">
+				</h1>
+				<!--<h1 style="font-size: 65px; color: white; line-height: 100px; font-weight: bold;">
+					PatriotHacks
+				</h1>-->
+				<h1 id="logo" class="logo">
+					<img src="img/letters_without_background.png">
+				</h1>
+			</div/>
+			
 			<div>
 
 				<!-- Title Screen Button Prefabrications -->
@@ -1168,6 +1207,7 @@
 	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
 	<script src="js/default.js"></script>
+	<script src="js/connects.js"></script>
 
 
 </body>

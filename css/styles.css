@@ -1911,14 +1911,17 @@ input.field {
 
 .banner {
   background: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ), url(../img/background.jpg) 50% no-repeat;
+    110deg, 
+	rgba(30, 98, 56, 1) 50%,
+    rgba(0, 0, 0, 1) 50.10%
+  ) no-repeat;
   background-size: cover;
 
   /*Credit to RamHacks for this*/
+  /*
   background-repeat: no-repeat;
   background-attachment: fixed;
+  */
 
   color: #fff;
   opacity: 0.9 }
