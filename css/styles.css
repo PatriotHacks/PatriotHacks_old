@@ -13,6 +13,7 @@
   box-sizing: border-box; }
 
 html {
+  background: black;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -60,8 +61,11 @@ body {
   line-height: 1.375rem;
   color: #828282;
   font-weight: 400;
-  background: #fff;
-  }
+  /*background: #fff;*/
+  background: 
+  	linear-gradient(174deg, #fff0 11.5%, #ffcc33 11.52% 19%, #fff0 19.025%), 
+	linear-gradient(105deg, #006633 25.35%, black 25.4%);
+}
 
 p {
   margin: 0 0 20px 0; }
@@ -1910,12 +1914,14 @@ input.field {
     transition: all .5s; }
 
 .banner {
+  /*
   background: linear-gradient(
     110deg, 
 	rgba(30, 98, 56, 1) 50%,
     rgba(0, 0, 0, 1) 50.10%
   ) no-repeat;
   background-size: cover;
+  */
 
   /*Credit to RamHacks for this*/
   /*

@@ -199,7 +199,7 @@ var Nodes = {
     Nodes.mouse.x = (this.canvas.width / 2) + 350*Math.sin(Nodes.t/Nodes.rotationPeriod);
     Nodes.mouse.y = (this.canvas.height / 2) + 350*Math.cos(Nodes.t/Nodes.rotationPeriod);
 
-    Nodes.t += 3;
+    Nodes.t += 6;
 
     console.log(Nodes.mouse.x);
 
