@@ -59,24 +59,42 @@ body {
   font-size: 0.875rem;
   line-height: 22px;
   line-height: 1.375rem;
-  color: #828282;
+  /*color: #828282;*/
+  color: #006633;
   font-weight: 400;
   /*background: #fff;*/
+  /*
   background: 
   	linear-gradient(174deg, #fff0 11.5%, #ffcc33 11.52% 19%, #fff0 19.025%), 
 	linear-gradient(105deg, #006633 25.35%, black 25.4%);
+  */
+  background:
+  	linear-gradient(184deg, #fff0 2260px, #ffcc33 2262px 2600px, #fff0 2600px), 
+  	linear-gradient(174deg, #fff0 2260px, #ffcc33 2262px 2600px, #fff0 2600px), 
+  	linear-gradient(174deg, #fff0 700px, #ffcc33 702px 1150px, #fff0 1152px), 
+	linear-gradient(10deg, #fff0 925px, #ffcc33 927px 1300px, #fff0 1302px),
+	linear-gradient(105deg, #006633 720px, black 722px);
+  /*
+  For 1024px 	
+  background:
+  	linear-gradient(184deg, #fff0 2260px, #ffcc33 2262px 2600px, #fff0 2600px), 
+  	linear-gradient(174deg, #fff0 2260px, #ffcc33 2262px 2600px, #fff0 2600px), 
+  	linear-gradient(174deg, #fff0 700px, #ffcc33 702px 1150px, #fff0 1152px), 
+	linear-gradient(10deg, #fff0 925px, #ffcc33 927px 1300px, #fff0 1302px),
+	linear-gradient(101deg, #006633 520px, black 522px);
+	*/
 }
 
 p {
   margin: 0 0 20px 0; }
 
 a {
-  color: #2cc7c1;
+  color: maroon; /*#2cc7c1;*/
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:active, a:hover {
-    color: #2cc7c1;
+    color: crimson; /*#2cc7c1;*/
     outline-width: 0;
     text-decoration: none; }
 
@@ -127,7 +145,7 @@ h1 {
 
 h2 {
   margin-bottom: .2em;
-  color: #828282;
+  color: #030; /*#828282;*/
   font-weight: 400; }
 
 h3 {
@@ -1605,8 +1623,11 @@ a {
   .button-link:active {
     outline: 0; }
 
-.h-white, .banner-heading {
+.banner-heading {
   color: #fff; }
+
+.h-white {
+  color: #006633; /*#fff;*/ }
 
 .h-grey {
   color: #828282; }
@@ -1929,7 +1950,8 @@ input.field {
   background-attachment: fixed;
   */
 
-  color: #fff;
+  color: #006633;/*#fff;*/
+  /*Complementary: #3366ff*/
   opacity: 0.9 }
 
 .banner-heading {
@@ -2527,8 +2549,9 @@ input.field {
     margin-left: -560px; } }
 */
 .footer {
-  color: #f3f3f3;
-  background: #525b64; }
+  color: #006633; /*#f3f3f3;*/
+  /*background: #525b64; */
+}
 
 .footer-content-blocks {
   padding-left: 15px;

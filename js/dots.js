@@ -57,6 +57,8 @@ var Nodes = {
     this.context.globalCompositeOperation = "lighter";
     //this.canvas.width = window.innerWidth;
     //this.canvas.height = window.innerHeight;
+    this.canvas.style.width = '100%';
+    this.canvas.style.height = '100%';
     this.canvas.style.display = 'block'
 
     this.imageInput = document.createElement( 'input' );
@@ -281,6 +283,8 @@ var Nodes = {
   // Resize and redraw the canvas.
   onWindowResize: function() {
     cancelAnimationFrame( this.animation );
+	this.canvas.style.width = '100%';
+	//this.canvas.width = a;
     this.drawImageToBackground();
   }
 }
