@@ -82,8 +82,8 @@ body {
 @media only screen and (max-width: 426px){
     body{
   		background:
-			linear-gradient(184deg, #fff0 89.3%, #ffcc33 89.35% 100%, #fff0 100%),
-		  	linear-gradient(174deg, #fff0 87.75%, #ffcc33 87.8% 100%, #fff0 100%),
+			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
 		  	linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 45.6%, #fff0 45.65%),
 		 	linear-gradient(10deg, #fff0 34.75%, #ffcc33 34.8% 49%, #fff0 49.05%),
 			linear-gradient(174deg, #006633 15%, black 15.05%)
