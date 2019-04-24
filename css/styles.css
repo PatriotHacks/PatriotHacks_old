@@ -79,7 +79,7 @@ body {
   */
 }
 
-@media only screen and (max-width: 426px){
+@media only screen and (max-width: 767px){
     body{
   		background:
 			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
@@ -1949,6 +1949,15 @@ input.field {
 .grey-row {
   background-color: #ececec; }
 
+.title-padding{
+
+}
+@media only screen and (min-width: 1440px){
+	.title-padding{
+		margin-left: 15%;
+	}
+}
+
 .logo {
   margin: 0;
   margin-left: auto;
@@ -1987,9 +1996,17 @@ input.field {
 
 @media only screen and (min-width: 425px){
     .canvas-wrapper{
-      width: 100%;
-	  top: 360px; /*50%;*/
-  	  left: 0%;
+      width: 60%;
+	  top: 55vh; /*50%;*/
+  	  left: 20%;
+    }
+  }
+
+@media only screen and (min-width: 550px){
+    .canvas-wrapper{
+      width: 50%;
+	  top: 50vh; /*50%;*/
+  	  left: 25%;
     }
   }
 
@@ -2004,7 +2021,7 @@ input.field {
 @media only screen and (min-width: 1024px){
     .canvas-wrapper{
       width: 50%;
-	  top: 5%;
+	  top: 0%;
   	  left: 50%;
     }
   }
@@ -2017,7 +2034,22 @@ input.field {
     }
   }
 
+@media only screen and (min-width: 1740px){
+    .canvas-wrapper{
+      width: 40%;
+	  top: -5%;
+  	  left: 50%;
+    }
+  }
 
+@media only screen and (min-width: 2000px){
+    .canvas-wrapper{
+      width: 25%;
+	  top: 0%;
+  	  left: 50%;
+    }
+  }
+/*If your screen is bigger than that, go away*/
 .banner {
   /*
   background: linear-gradient(
@@ -2044,8 +2076,8 @@ input.field {
 }
 @media only screen and (min-width: 426px){
 	.banner-padding{
-		padding-top: 175px;
-		padding-bottom: 345px;
+		padding-top: 150px;
+		padding-bottom: 425px;
 	}
 }
 
@@ -2056,7 +2088,7 @@ input.field {
 	padding: 0;
 	float: left;
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 767px){
 	.banner-heading-wrapper{
 		width: 100%;
 		text-align: center;
