@@ -68,7 +68,7 @@ body {
 	linear-gradient(174deg, #fff0 87.75%, #ffcc33 87.8% 100%, #fff0 100%),
 	linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 45.6%, #fff0 45.65%),
  	linear-gradient(10deg, #fff0 34.75%, #ffcc33 34.8% 49%, #fff0 49.05%),
-  	linear-gradient(105deg, #006633 34%, black 34.05%);
+  	linear-gradient(105deg, #006633 53vw, black 53.075vw);
   /*
   background:
   	linear-gradient(184deg, #fff0 2260px, #ffcc33 2262px 2600px, #fff0 2600px), 
@@ -89,18 +89,18 @@ body {
 			linear-gradient(174deg, #006633 15%, black 15.05%)
     }
   }
-/*
-@media only screen and (min-width: 1024px){
+
+@media only screen and (max-width: 425px){
     body{
   		background:
-  			linear-gradient(184deg, #fff0 2260px, #ffcc33 2262px 2600px, #fff0 2600px), 
-  			linear-gradient(174deg, #fff0 2260px, #ffcc33 2262px 2600px, #fff0 2600px), 
-  			linear-gradient(174deg, #fff0 700px, #ffcc33 702px 1150px, #fff0 1152px), 
-			linear-gradient(10deg, #fff0 925px, #ffcc33 927px 1300px, #fff0 1302px),
-			linear-gradient(101deg, #006633 520px, black 522px);
+			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 47.6%, #fff0 47.65%),
+		 	linear-gradient(10deg, #fff0 37.75%, #ffcc33 37.8% 50%, #fff0 50.05%),
+			linear-gradient(174deg, #006633 11%, black 11.05%)
     }
   }
-
+/*
   @media only screen and (min-width: 1440px){
     body{
   		background:
@@ -1986,7 +1986,7 @@ input.field {
   /*For mobile*/
   width: 100%;
   left: 0%;
-  top: 400px; /*80%;*/
+  top: 350px;
 }
 @media only screen and (min-width: 375px){
     .canvas-wrapper{
@@ -2022,17 +2022,17 @@ input.field {
 
 @media only screen and (min-width: 1024px){
     .canvas-wrapper{
-      width: 50%;
-	  top: 0%;
-  	  left: 50%;
+      width: 50vw;
+	  top: 0vh;
+  	  left: 48vw;
     }
   }
 
 @media only screen and (min-width: 1440px){
     .canvas-wrapper{
-      width: 50%;
-	  top: -10%;
-  	  left: 50%;
+      width: 50vw;
+	  top: -10vh;
+  	  left: 48vw;
     }
   }
 
