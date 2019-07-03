@@ -26,14 +26,14 @@
 var Nodes = {
 
   // Settings
-  rotationPeriod: 80,
+  rotationPeriod: 300,
   t: 0,
   density: 14,
   
   drawDistance: 24,
   baseRadius: 6,
   maxLineThickness: 4,
-  reactionSensitivity: 0.5,
+  reactionSensitivity: 10.5,
   lineThickness: 1,
 
   points: [],
@@ -72,6 +72,7 @@ var Nodes = {
     this.canvas.addEventListener('mouseup',   this.mouseUp,   false);
     //this.canvas.addEventListener('mouseout',  this.mouseOut,  false);
 
+    this.wins = 750
     window.onresize = function(event) {
       //Nodes.canvas.width = window.innerWidth;
       //Nodes.canvas.height = window.innerHeight;
@@ -130,13 +131,12 @@ var Nodes = {
       
       distp = Math.sqrt(Math.pow(this.mouse.x - currentPoint.x, 2) + Math.pow(this.mouse.y - currentPoint.y,2))
       
-      wins = 750//Math.sqrt(Math.pow(this.canvas.width) + Math.pow(this.canvas.height))
       
-      lightBloom = (1-((distp)/wins))
+      lightBloom = (1-Math.pow((distp)/this.wins, 0.75))
       
       currentPoint.color = 'rgb('+(currentPoint.startColor[0]*lightBloom)+', '+(currentPoint.startColor[1]*lightBloom)+', '+(currentPoint.startColor[2]*1)+', '+1*1+')';
-      currentPoint.x += 0//Math.cos(theta) * distance + (currentPoint.originalX - currentPoint.x) * 0.05;
-      currentPoint.y += 0//Math.sin(theta) * distance + (currentPoint.originalY - currentPoint.y) * 0.05;
+      currentPoint.x += 0;//Math.cos(theta) * distance + (currentPoint.originalX - currentPoint.x) * 0.2;
+      currentPoint.y += 0;//Math.sin(theta) * distance + (currentPoint.originalY - currentPoint.y) * 0.2;
 
     }
   },
@@ -198,12 +198,12 @@ var Nodes = {
   },
 
   draw: function() {
-    Nodes.mouse.x = (this.canvas.width / 2) + 350*Math.sin(Nodes.t/Nodes.rotationPeriod);
-    Nodes.mouse.y = (this.canvas.height / 2) + 350*Math.cos(Nodes.t/Nodes.rotationPeriod);
+    Nodes.mouse.x = (this.canvas.width / 2) + 250*Math.sin(Nodes.t/Nodes.rotationPeriod);
+    Nodes.mouse.y = (this.canvas.height / 2) + 250*Math.cos(Nodes.t/Nodes.rotationPeriod);
 
     Nodes.t += 6;
 
-    console.log(Nodes.mouse.x);
+    //console.log(Nodes.mouse.x);
 
     this.animation = requestAnimationFrame( function(){ Nodes.draw() } );
 
@@ -286,6 +286,8 @@ var Nodes = {
 	this.canvas.style.width = '100%';
 	//this.canvas.width = a;
     this.drawImageToBackground();
+    this.wins = Math.sqrt(Math.pow(this.canvas.width, 2) + Math.pow(this.canvas.height, 2))
+    //wins = 750
   }
 }
   
