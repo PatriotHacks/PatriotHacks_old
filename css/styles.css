@@ -79,6 +79,17 @@ body {
   */
 }
 
+@media only screen and (max-width: 980px){
+    body{
+		background:
+  			linear-gradient(184deg, #fff0 89.3%, #ffcc33 89.35% 100%, #fff0 100%),
+			linear-gradient(174deg, #fff0 87.75%, #ffcc33 87.8% 100%, #fff0 100%),
+			linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 45.6%, #fff0 45.65%),
+ 			linear-gradient(10deg, #fff0 34.75%, #ffcc33 34.8% 49%, #fff0 49.05%),
+  			linear-gradient(98deg, #006633 53vw, black 53.075vw);
+    }
+  }
+
 @media only screen and (max-width: 767px){
     body{
   		background:
@@ -1956,7 +1967,7 @@ input.field {
 }
 @media only screen and (min-width: 1440px){
 	.title-padding{
-		margin-left: 15%;
+		margin-left: 12%;
 	}
 }
 
@@ -1999,7 +2010,7 @@ input.field {
 @media only screen and (min-width: 425px){
     .canvas-wrapper{
       width: 60%;
-	  top: 55vh; /*50%;*/
+	  top: 400px;
   	  left: 20%;
     }
   }
@@ -2022,8 +2033,8 @@ input.field {
 
 @media only screen and (min-width: 1024px){
     .canvas-wrapper{
-      width: 50vw;
-	  top: 0vh;
+      width: 52vw;
+	  top: 5vh;
   	  left: 48vw;
     }
   }
@@ -2046,9 +2057,9 @@ input.field {
 
 @media only screen and (min-width: 2000px){
     .canvas-wrapper{
-      width: 25%;
+      width: 35%;
 	  top: 0%;
-  	  left: 50%;
+  	  left: 55%;
     }
   }
 /*If your screen is bigger than that, go away*/
@@ -2073,7 +2084,7 @@ input.field {
   opacity: 0.9 }
 
 .banner-padding{
-	padding-top: 75px;
+	padding-top: 50px;
 	padding-bottom: 625px;
 }
 @media only screen and (min-width: 426px){
