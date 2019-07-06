@@ -95,12 +95,22 @@ body {
   		background:
 			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
 		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
-		  	linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 45.6%, #fff0 45.65%),
-		 	linear-gradient(10deg, #fff0 34.75%, #ffcc33 34.8% 49%, #fff0 49.05%),
-			linear-gradient(174deg, #006633 15%, black 15.05%)
+		  	linear-gradient(174deg, #fff0 26.0%, #ffcc33 26.05% 40.6%, #fff0 40.65%),
+		 	linear-gradient(10deg, #fff0 37.75%, #ffcc33 37.8% 50%, #fff0 50.05%),
+			linear-gradient(174deg, #006633 16%, black 16.05%)
     }
   }
 
+@media only screen and (max-width: 740px){
+    body{
+  		background:
+			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 26.0%, #ffcc33 26.05% 40.6%, #fff0 40.65%),
+		 	linear-gradient(10deg, #fff0 40.75%, #ffcc33 40.8% 52%, #fff0 52.05%),
+			linear-gradient(174deg, #006633 16%, black 16.05%)
+    }
+  }
 @media only screen and (max-width: 425px){
     body{
   		background:
@@ -1997,12 +2007,12 @@ input.field {
   /*For mobile*/
   width: 100%;
   left: 0%;
-  top: 450px;
+  top: 375px;
 }
 @media only screen and (min-width: 375px){
     .canvas-wrapper{
       width: 100%;
-  	  top: 385px; /*47.5%;*/
+  	  top: 325px; /*47.5%;*/
 	  left: 0%;
     }
   }
@@ -2010,7 +2020,7 @@ input.field {
 @media only screen and (min-width: 425px){
     .canvas-wrapper{
       width: 60%;
-	  top: 400px;
+	  top: 380px;
   	  left: 20%;
     }
   }
@@ -2018,23 +2028,39 @@ input.field {
 @media only screen and (min-width: 550px){
     .canvas-wrapper{
       width: 50%;
-	  top: 50vh; /*50%;*/
+	  top: 72.5%; /*50%;*/
   	  left: 25%;
+    }
+  }
+
+@media only screen and (min-width: 650px){
+    .canvas-wrapper{
+      width: 40%;
+	  top: 72.5%; /*50%;*/
+  	  left: 30%;
+    }
+  }
+
+@media only screen and (min-width: 740px){
+    .canvas-wrapper{
+      width: 40%;
+	  top: 62.5%; /*50%;*/
+  	  left: 30%;
     }
   }
 
 @media only screen and (min-width: 768px){
     .canvas-wrapper{
-      width: 45%;
+      width: 50vw;
 	  top: 20%;
-  	  left: 55%;
+  	  left: 48vw;
     }
   }
 
 @media only screen and (min-width: 1024px){
     .canvas-wrapper{
-      width: 52vw;
-	  top: 5vh;
+      width: 50vw;
+	  top: 5%;
   	  left: 48vw;
     }
   }
@@ -2042,7 +2068,7 @@ input.field {
 @media only screen and (min-width: 1440px){
     .canvas-wrapper{
       width: 50vw;
-	  top: -10vh;
+	  top: -10%;
   	  left: 48vw;
     }
   }
@@ -2091,6 +2117,18 @@ input.field {
 	.banner-padding{
 		padding-top: 150px;
 		padding-bottom: 425px;
+	}
+}
+@media only screen and (min-width: 650px){
+	.banner-padding{
+		padding-top: 75px;
+		padding-bottom: 500px;
+	}
+}
+@media only screen and (min-width: 740px){
+	.banner-padding{
+		padding-top: 50px;
+		padding-bottom: 400px;
 	}
 }
 
