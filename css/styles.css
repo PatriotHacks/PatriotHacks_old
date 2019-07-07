@@ -2059,33 +2059,33 @@ input.field {
 
 @media only screen and (min-width: 1024px){
     .canvas-wrapper{
-      width: 50vw;
+      width: 50%;
 	  top: 5%;
-  	  left: 48vw;
+  	  left: 48%;
     }
   }
 
 @media only screen and (min-width: 1440px){
     .canvas-wrapper{
-      width: 50vw;
-	  top: -10%;
-  	  left: 48vw;
+      width: 40%;
+	  top: 0%;
+  	  left: 52.5%;
     }
   }
 
 @media only screen and (min-width: 1740px){
     .canvas-wrapper{
-      width: 40%;
-	  top: -5%;
-  	  left: 50%;
+      width: 35%;
+	  top: -2.5%;
+  	  left: 57.5%;
     }
   }
 
 @media only screen and (min-width: 2000px){
     .canvas-wrapper{
-      width: 35%;
+      width: 25%;
 	  top: 0%;
-  	  left: 55%;
+  	  left: 62.5%;
     }
   }
 /*If your screen is bigger than that, go away*/
@@ -2128,6 +2128,18 @@ input.field {
 @media only screen and (min-width: 740px){
 	.banner-padding{
 		padding-top: 50px;
+		padding-bottom: 400px;
+	}
+}
+@media only screen and (min-width: 768px){
+	.banner-padding{
+		padding-top: 150px;
+		padding-bottom: 450px;
+	}
+}
+@media only screen and (min-width: 1024px){
+	.banner-padding{
+		padding-top: 150px;
 		padding-bottom: 400px;
 	}
 }
