@@ -67,7 +67,7 @@ body {
   	linear-gradient(184deg, #fff0 89.3%, #ffcc33 89.35% 100%, #fff0 100%),
 	linear-gradient(174deg, #fff0 87.75%, #ffcc33 87.8% 100%, #fff0 100%),
 	linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 45.6%, #fff0 45.65%),
- 	linear-gradient(10deg, #fff0 34.75%, #ffcc33 34.8% 49%, #fff0 49.05%),
+ 	linear-gradient(7deg, #fff0 25.5%, #ffcc33 25.55% 48%, #fff0 48.05%),
   	linear-gradient(105deg, #006633 53vw, black 53.075vw);
   /*
   background:
@@ -85,7 +85,7 @@ body {
   			linear-gradient(184deg, #fff0 89.3%, #ffcc33 89.35% 100%, #fff0 100%),
 			linear-gradient(174deg, #fff0 87.75%, #ffcc33 87.8% 100%, #fff0 100%),
 			linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 45.6%, #fff0 45.65%),
- 			linear-gradient(10deg, #fff0 34.75%, #ffcc33 34.8% 49%, #fff0 49.05%),
+ 			linear-gradient(7deg, #fff0 24.75%, #ffcc33 24.8% 48%, #fff0 48.05%),
   			linear-gradient(98deg, #006633 53vw, black 53.075vw);
     }
   }
@@ -96,7 +96,7 @@ body {
 			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
 		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
 		  	linear-gradient(174deg, #fff0 26.0%, #ffcc33 26.05% 40.6%, #fff0 40.65%),
-		 	linear-gradient(10deg, #fff0 37.75%, #ffcc33 37.8% 50%, #fff0 50.05%),
+		 	linear-gradient(7deg, #fff0 26.75%, #ffcc33 26.8% 52%, #fff0 52.05%),
 			linear-gradient(174deg, #006633 16%, black 16.05%)
     }
   }
@@ -107,7 +107,7 @@ body {
 			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
 		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
 		  	linear-gradient(174deg, #fff0 26.0%, #ffcc33 26.05% 40.6%, #fff0 40.65%),
-		 	linear-gradient(10deg, #fff0 40.75%, #ffcc33 40.8% 52%, #fff0 52.05%),
+		 	linear-gradient(7deg, #fff0 31.75%, #ffcc33 31.8% 52%, #fff0 52.05%),
 			linear-gradient(174deg, #006633 16%, black 16.05%)
     }
   }
@@ -117,7 +117,7 @@ body {
 			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
 		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
 		  	linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 47.6%, #fff0 47.65%),
-		 	linear-gradient(10deg, #fff0 37.75%, #ffcc33 37.8% 50%, #fff0 50.05%),
+		 	linear-gradient(7deg, #fff0 29.75%, #ffcc33 29.8% 50%, #fff0 50.05%),
 			linear-gradient(174deg, #006633 13%, black 13.05%)
     }
   }
@@ -605,17 +605,18 @@ html input[disabled] {
   margin-left: auto;
   margin-right: auto; }
 
+/*Used to be width: 720px, changed on July 9, 2019*/
 @media only screen and (min-width: 740px) {
   .container, .container-full {
-    width: 720px; }
+    width: 710px; }
   .container-m {
-    width: 720px;
+    width: 710px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto; }
   .container-full-m {
-    width: 720px;
+    width: 710px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -2027,41 +2028,41 @@ input.field {
 
 @media only screen and (min-width: 550px){
     .canvas-wrapper{
-      width: 50%;
-	  top: 72.5%; /*50%;*/
-  	  left: 25%;
+	width: 50%;
+	top: 380px; /*50%;*/
+  	left: 25%;
     }
   }
 
 @media only screen and (min-width: 650px){
     .canvas-wrapper{
-      width: 40%;
-	  top: 72.5%; /*50%;*/
-  	  left: 30%;
+	width: 40%;
+	top: 380px; /*50%;*/
+	left: 30%;
     }
   }
 
 @media only screen and (min-width: 740px){
     .canvas-wrapper{
-      width: 40%;
-	  top: 62.5%; /*50%;*/
-  	  left: 30%;
+	width: 40%;
+	top: 315px; /*50%;*/
+  	left: 30%;
     }
   }
 
 @media only screen and (min-width: 768px){
     .canvas-wrapper{
-      width: 50vw;
-	  top: 20%;
-  	  left: 48vw;
+	width: 50%;
+	top: 10%;
+  	left: 50%;
     }
   }
 
 @media only screen and (min-width: 1024px){
     .canvas-wrapper{
-      width: 50%;
-	  top: 5%;
-  	  left: 48%;
+	width: 46%;
+	top: 5%;
+  	left: 50%;
     }
   }
 
@@ -2476,7 +2477,7 @@ input.field {
   margin-bottom: 20px; }
   @media only screen and (min-width: 360px) {
     .cohost {
-      height: 80px;
+      height: 68px;
       margin-bottom: 0; } }
   @media only screen and (min-width: 720px) {
     .cohost {
