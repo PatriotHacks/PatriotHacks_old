@@ -64,7 +64,9 @@ body {
   font-weight: 400;
 
   background:
-  	linear-gradient(184deg, #fff0 89.3%, #ffcc33 89.35% 100%, #fff0 100%),
+  	linear-gradient(105deg, #fff0 77%, #006633 77.05%) no-repeat -1896px 492.45px / 3000px 75px,     
+	no-repeat linear-gradient(0deg, #fff0 77%, #ffcc33 77.05% 80%, #fff0 80.05%),
+	linear-gradient(184deg, #fff0 89.3%, #ffcc33 89.35% 100%, #fff0 100%),
 	linear-gradient(174deg, #fff0 87.75%, #ffcc33 87.8% 100%, #fff0 100%),
 	linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 45.6%, #fff0 45.65%),
  	linear-gradient(7deg, #fff0 25.5%, #ffcc33 25.55% 48%, #fff0 48.05%),
