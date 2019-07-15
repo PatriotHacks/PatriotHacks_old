@@ -132,7 +132,7 @@ var Nodes = {
       distp = Math.sqrt(Math.pow(this.mouse.x - currentPoint.x, 2) + Math.pow(this.mouse.y - currentPoint.y,2))
       
       
-      lightBloom = (1-Math.pow((distp)/this.wins, 0.75))
+      lightBloom = 1//(1-Math.pow((distp)/this.wins, 0.75))
       
       currentPoint.color = 'rgb('+(currentPoint.startColor[0]*lightBloom)+', '+(currentPoint.startColor[1]*lightBloom)+', '+(currentPoint.startColor[2]*1)+', '+1*1+')';
       currentPoint.x += 0;//Math.cos(theta) * distance + (currentPoint.originalX - currentPoint.x) * 0.2;

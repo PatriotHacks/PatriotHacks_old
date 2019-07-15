@@ -1,3 +1,6 @@
+@font-face { font-family: Kiona-Regular; 
+					 src: url('../assets/fonts/Kiona-Regular.ttf'); }
+
 /* ==========================================================================
 
 // Base Stylesheet - http://getbase.org
@@ -54,23 +57,20 @@ svg:not(:root) {
   overflow: hidden; }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Lato", serif;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 22px;
   line-height: 1.375rem;
-  /*color: #828282;*/
   color: #006633;
   font-weight: 400;
 
   background:
-  	linear-gradient(105deg, #fff0 77%, #006633 77.05%) no-repeat -1896px 492.45px / 3000px 75px,     
-	no-repeat linear-gradient(0deg, #fff0 77%, #ffcc33 77.05% 80%, #fff0 80.05%),
-	linear-gradient(184deg, #fff0 89.3%, #ffcc33 89.35% 100%, #fff0 100%),
-	linear-gradient(174deg, #fff0 87.75%, #ffcc33 87.8% 100%, #fff0 100%),
-	linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 45.6%, #fff0 45.65%),
- 	linear-gradient(7deg, #fff0 25.5%, #ffcc33 25.55% 48%, #fff0 48.05%),
-  	linear-gradient(105deg, #006633 53vw, black 53.075vw);
+	linear-gradient(184deg, #fff0 89.3%, #006633 89.35% 100%, #fff0 100%),
+	linear-gradient(174deg, #fff0 87.75%, #006633 87.8% 100%, #fff0 100%),
+	linear-gradient(174deg, #fff0 27.5%, #006633 27.55% 45.6%, #fff0 45.65%),
+ 	linear-gradient(7deg, #fff0 25.5%, #006633 25.55% 48%, #fff0 48.05%),
+  	linear-gradient(105deg, #ffcc33 53vw, black 53.075vw);
   /*
   background:
   	linear-gradient(184deg, #fff0 2260px, #ffcc33 2262px 2600px, #fff0 2600px), 
@@ -139,7 +139,7 @@ p {
   margin: 0 0 20px 0; }
 
 a {
-  color: maroon; /*#2cc7c1;*/
+  color: white; /*#2cc7c1;*/
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
@@ -148,8 +148,13 @@ a {
     outline-width: 0;
     text-decoration: none; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+h1 {
+  font-family: Kiona-Regular, sans-serif;
+  margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", serif;
   margin: 0; }
 
 h1, .fs-1 {
@@ -196,7 +201,7 @@ h1 {
 h2 {
   margin-bottom: .2em;
   color: white;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 5px #005522;
   font-weight: 400; }
 
 h3 {
@@ -1676,11 +1681,11 @@ a {
     outline: 0; }
 
 .banner-heading {
-  color: #fff; 
-  text-shadow: none;  }
+  color: #006633; 
+  text-shadow: 2px 2px white;  }
 
 .h-white {
-  color: #006633; /*#fff;*/ }
+  color: #fff; }
 
 .h-grey {
   color: #828282; }
@@ -2108,7 +2113,7 @@ input.field {
   background-attachment: fixed;
   */
 
-  color: maroon;/*#fff;*/
+  color: white;/*#fff;*/
   /*Complementary: #3366ff*/
   opacity: 0.9 }
 
@@ -2732,7 +2737,7 @@ input.field {
     margin-left: -560px; } }
 */
 .footer {
-  color: #006633; /*#f3f3f3;*/
+  color: #ffffff; /*#f3f3f3;*/
   /*background: #525b64; */
 }
 
