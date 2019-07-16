@@ -84,43 +84,43 @@ body {
 @media only screen and (max-width: 980px){
     body{
 		background:
-  			linear-gradient(184deg, #fff0 89.3%, #ffcc33 89.35% 100%, #fff0 100%),
-			linear-gradient(174deg, #fff0 87.75%, #ffcc33 87.8% 100%, #fff0 100%),
-			linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 45.6%, #fff0 45.65%),
- 			linear-gradient(7deg, #fff0 24.75%, #ffcc33 24.8% 48%, #fff0 48.05%),
-  			linear-gradient(98deg, #006633 53vw, black 53.075vw);
+  			linear-gradient(184deg, #fff0 89.3%, #006633 89.35% 100%, #fff0 100%),
+			linear-gradient(174deg, #fff0 87.75%, #006633 87.8% 100%, #fff0 100%),
+			linear-gradient(174deg, #fff0 27.5%, #006633 27.55% 45.6%, #fff0 45.65%),
+ 			linear-gradient(7deg, #fff0 24.75%, #006633 24.8% 48%, #fff0 48.05%),
+  			linear-gradient(98deg, #ffcc33 53vw, black 53.075vw);
     }
   }
 
 @media only screen and (max-width: 767px){
     body{
   		background:
-			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
-		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
-		  	linear-gradient(174deg, #fff0 26.0%, #ffcc33 26.05% 40.6%, #fff0 40.65%),
-		 	linear-gradient(7deg, #fff0 26.75%, #ffcc33 26.8% 52%, #fff0 52.05%),
-			linear-gradient(174deg, #006633 16%, black 16.05%)
+			linear-gradient(184deg, #fff0 84.3%, #006633 84.35% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 83.75%, #006633 83.8% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 26.0%, #006633 26.05% 40.6%, #fff0 40.65%),
+		 	linear-gradient(7deg, #fff0 26.75%, #006633 26.8% 52%, #fff0 52.05%),
+			linear-gradient(174deg, #ffcc33 16%, black 16.05%)
     }
   }
 
 @media only screen and (max-width: 740px){
     body{
   		background:
-			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
-		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
-		  	linear-gradient(174deg, #fff0 26.0%, #ffcc33 26.05% 40.6%, #fff0 40.65%),
-		 	linear-gradient(7deg, #fff0 31.75%, #ffcc33 31.8% 52%, #fff0 52.05%),
-			linear-gradient(174deg, #006633 16%, black 16.05%)
+			linear-gradient(184deg, #fff0 84.3%, #006633 84.35% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 83.75%, #006633 83.8% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 26.0%, #006633 26.05% 40.6%, #fff0 40.65%),
+		 	linear-gradient(7deg, #fff0 31.75%, #006633 31.8% 52%, #fff0 52.05%),
+			linear-gradient(174deg, #ffcc33 16%, black 16.05%)
     }
   }
 @media only screen and (max-width: 425px){
     body{
   		background:
-			linear-gradient(184deg, #fff0 84.3%, #ffcc33 84.35% 100%, #fff0 100%),
-		  	linear-gradient(174deg, #fff0 83.75%, #ffcc33 83.8% 100%, #fff0 100%),
-		  	linear-gradient(174deg, #fff0 27.5%, #ffcc33 27.55% 47.6%, #fff0 47.65%),
-		 	linear-gradient(7deg, #fff0 29.75%, #ffcc33 29.8% 50%, #fff0 50.05%),
-			linear-gradient(174deg, #006633 13%, black 13.05%)
+			linear-gradient(184deg, #fff0 84.3%, #006633 84.35% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 83.75%, #006633 83.8% 100%, #fff0 100%),
+		  	linear-gradient(174deg, #fff0 27.5%, #006633 27.55% 47.6%, #fff0 47.65%),
+		 	linear-gradient(7deg, #fff0 29.75%, #006633 29.8% 50%, #fff0 50.05%),
+			linear-gradient(174deg, #ffcc33 13%, black 13.05%)
     }
   }
 /*
@@ -505,6 +505,10 @@ html input[disabled] {
 
 :-ms-input-placeholder {
   color: #999; }
+
+.front-button{
+  box-shadow: 3px 3px white;
+}
 
 .button {
   cursor: pointer;
@@ -2020,7 +2024,7 @@ input.field {
 @media only screen and (min-width: 375px){
     .canvas-wrapper{
       width: 100%;
-  	  top: 325px; /*47.5%;*/
+  	  top: 350px; /*47.5%;*/
 	  left: 0%;
     }
   }
