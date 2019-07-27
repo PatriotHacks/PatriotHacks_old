@@ -626,10 +626,9 @@ html input[disabled] {
   margin-left: auto;
   margin-right: auto; }
 
-/*Used to be width: 720px, changed on July 9, 2019*/
 @media only screen and (min-width: 740px) {
   .container, .container-full {
-    width: 710px; }
+    width: 740px; }
   .container-m {
     width: 710px;
     padding-left: 15px;
@@ -2029,12 +2028,12 @@ input.field {
   /*For mobile*/
   width: 100%;
   left: 0%;
-  top: 350px;
+  top: 330px;
 }
 @media only screen and (min-width: 375px){
     .canvas-wrapper{
       width: 100%;
-  	  top: 320px; /*370px;*/
+  	  top: 305px; /*370px;*/
 	  left: 0%;
     }
   }
@@ -2137,8 +2136,8 @@ input.field {
 }
 @media only screen and (min-width: 426px){
 	.banner-padding{
-		padding-top: 150px;
-		padding-bottom: 425px;
+		padding-top: 75px;
+		padding-bottom: 525px;
 	}
 }
 @media only screen and (min-width: 650px){
