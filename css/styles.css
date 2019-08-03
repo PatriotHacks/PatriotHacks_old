@@ -139,7 +139,7 @@ p {
   margin: 0 0 20px 0; }
 
 a {
-  color: #AC1D37; /*#2cc7c1;*/
+  color: aqua; /*#2cc7c1;*/
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
