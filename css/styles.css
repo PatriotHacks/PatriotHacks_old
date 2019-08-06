@@ -72,18 +72,18 @@ body {
   background: #ffcc33;
 
   background-image:
-    -webkit-linear-gradient(184deg, #fff0 89.3%, #006633 89.35% 100%, #fff0 100%),
-    -webkit-linear-gradient(174deg, #fff0 87.75%, #006633 87.8% 100%, #fff0 100%),
-    -webkit-linear-gradient(174deg, #fff0 27.5%, #006633 27.55% 45.6%, #fff0 45.65%),
-    -webkit-linear-gradient(7deg, #fff0 25.5%, #006633 25.55% 48%, #fff0 48.05%),
-    -webkit-linear-gradient(105deg, #ffcc33 53vw, black 53.075vw);
-
-  background-image:
     -webkit-gradient(linear, 184deg, #fff0 89.3%, #006633 89.35% 100%, #fff0 100%),
     -webkit-gradient(linear, 174deg, #fff0 87.75%, #006633 87.8% 100%, #fff0 100%),
     -webkit-gradient(linear, 174deg, #fff0 27.5%, #006633 27.55% 45.6%, #fff0 45.65%),
     -webkit-gradient(linear, 7deg, #fff0 25.5%, #006633 25.55% 48%, #fff0 48.05%),
     -webkit-gradient(linear, 105deg, #ffcc33 53vw, black 53.075vw);
+
+  background-image:
+    -webkit-linear-gradient(184deg, #fff0 89.3%, #006633 89.35% 100%, #fff0 100%),
+    -webkit-linear-gradient(174deg, #fff0 87.75%, #006633 87.8% 100%, #fff0 100%),
+    -webkit-linear-gradient(174deg, #fff0 27.5%, #006633 27.55% 45.6%, #fff0 45.65%),
+    -webkit-linear-gradient(7deg, #fff0 25.5%, #006633 25.55% 48%, #fff0 48.05%),
+    -webkit-linear-gradient(105deg, #ffcc33 53vw, black 53.075vw);
 
   background-image:
     -moz-linear-gradient(184deg, #fff0 89.3%, #006633 89.35% 100%, #fff0 100%),
