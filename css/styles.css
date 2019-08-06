@@ -16,6 +16,8 @@
   box-sizing: border-box; }
 
 html {
+  content:"";
+  top:0;left:0;right:0;
   background: black;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
