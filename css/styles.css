@@ -71,7 +71,7 @@ body {
   color: #006633;
   font-weight: 400;
 
-  background: #ffcc33;
+  /*background: #ffcc33;*/
 
   background-image:
     -webkit-gradient(linear, 184deg, #ffffff00 89.3%, #006633 89.35% 100%, #ffffff00 100%),
