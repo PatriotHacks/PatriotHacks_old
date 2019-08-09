@@ -63,6 +63,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  position: absolute;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
