@@ -8,9 +8,5 @@ body {
   font-weight: 400;
 
   background-image:
-    linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
-    linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
-    linear-gradient(174deg, rgba(255, 255, 255, 0.001) 27.5%, #006633 27.55% 45.6%, rgba(255, 255, 255, 0.001) 45.65%),
-    linear-gradient(7deg, rgba(255, 255, 255, 0.001) 25.5%, #006633 25.55% 48%, rgba(255, 255, 255, 0.001) 48.05%),
-    linear-gradient(105deg, #ffcc33 53vw, black 53.075vw);
+    linear-gradient(red, blue);
 }
