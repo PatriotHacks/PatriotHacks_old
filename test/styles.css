@@ -8,5 +8,5 @@ body {
   font-weight: 400;
   margin: 0;
   background-image:
-    linear-gradient(rgba(255, 255, 255) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255) 100%);
+    linear-gradient(0deg, rgba(255, 255, 255) 99px, #006633 100px 120px, rgba(255, 255, 255) 121px);
 }
