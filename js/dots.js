@@ -26,7 +26,7 @@
 var Nodes = {
 
   // Settings
-  rotationPeriod: 30,
+  rotationPeriod: 300,
   t: 0,
   density: 14,
   
