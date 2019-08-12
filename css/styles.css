@@ -520,6 +520,8 @@ html input[disabled] {
 
 .button {
   width: 250px;
+  height: 30px;
+  margin: 0 0 8px;
   cursor: pointer;
   border: 1px solid #d7d7d7;
   background-color: #f3f3f3;
