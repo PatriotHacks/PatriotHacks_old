@@ -72,13 +72,13 @@ body {
   color: #006633;
   font-weight: 400;
 
-  /*background: #ffcc33;*/
+  background: linear-gradient(#ffcc33, #006633);
 
   background-image:
     linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
     linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
     linear-gradient(174deg, rgba(255, 255, 255, 0.001) 27.5%, #006633 27.55% 45.6%, rgba(255, 255, 255, 0.001) 45.65%),
-    linear-gradient(7deg, rgba(255, 255, 255, 0.001) 25.5%, #006633 25.55% 48%, rgba(255, 255, 255, 0.001) 48.05%),
+    linear-gradient(7deg, rgba(255, 255, 255, 0.001) 18.5%, #006633 18.55% 48%, rgba(255, 255, 255, 0.001) 48.05%),
     linear-gradient(105deg, #ffcc33 53vw, black 53.075vw);
 }
 
@@ -88,7 +88,7 @@ body {
       linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
       linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
       linear-gradient(174deg, rgba(255, 255, 255, 0.001) 27.5%, #006633 27.55% 45.6%, rgba(255, 255, 255, 0.001) 45.65%),
-      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 24.75%, #006633 24.8% 48%, rgba(255, 255, 255, 0.001) 48.05%),
+      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 18.75%, #006633 18.8% 48%, rgba(255, 255, 255, 0.001) 48.05%),
       linear-gradient(98deg, #ffcc33 53vw, black 53.075vw);
   }
 }
@@ -98,9 +98,9 @@ body {
     background-image:
       linear-gradient(184deg, rgba(255, 255, 255, 0.001) 84.3%, #006633 84.35% 100%, rgba(255, 255, 255, 0.001) 100%),
       linear-gradient(174deg, rgba(255, 255, 255, 0.001) 83.75%, #006633 83.8% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 26.0%, #006633 26.05% 40.6%, rgba(255, 255, 255, 0.001) 40.65%),
-      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 26.75%, #006633 26.8% 52%, rgba(255, 255, 255, 0.001) 52.05%),
-      linear-gradient(174deg, #ffcc33 16%, black 16.05%);
+      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 28.5%, #006633 28.55% 41.6%, rgba(255, 255, 255, 0.001) 41.65%),
+      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 20.75%, #006633 20.8% 47%, rgba(255, 255, 255, 0.001) 47.05%),
+      linear-gradient(174deg, #ffcc33 20%, black 20.05%)
   }
 }
 
@@ -109,9 +109,9 @@ body {
     background-image:
       linear-gradient(184deg, rgba(255, 255, 255, 0.001) 84.3%, #006633 84.35% 100%, rgba(255, 255, 255, 0.001) 100%),
       linear-gradient(174deg, rgba(255, 255, 255, 0.001) 83.75%, #006633 83.8% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 26.0%, #006633 26.05% 40.6%, rgba(255, 255, 255, 0.001) 40.65%),
-      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 31.75%, #006633 31.8% 52%, rgba(255, 255, 255, 0.001) 52.05%),
-      linear-gradient(174deg, #ffcc33 16%, black 16.05%);
+      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 28%, #006633 28.05% 41.6%, rgba(255, 255, 255, 0.001) 41.65%),
+      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 24.75%, #006633 24.8% 50%, rgba(255, 255, 255, 0.001) 50.05%),
+      linear-gradient(174deg, #ffcc33 19%, black 19.05%)
   }
 }
 
@@ -120,9 +120,9 @@ body {
     background-image: 
       linear-gradient(184deg, rgba(255, 255, 255, 0.001) 84.3%, #006633 84.35% 100%, rgba(255, 255, 255, 0.001) 100%),
       linear-gradient(174deg, rgba(255, 255, 255, 0.001) 83.75%, #006633 83.8% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 25.5%, #006633 25.55% 43.6%, rgba(255, 255, 255, 0.001) 43.65%),
-      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 25.75%, #006633 25.8% 51%, rgba(255, 255, 255, 0.001) 51.05%),
-      linear-gradient(174deg, #ffcc33 13.5%, black 13.55%);
+      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 27.5%, #006633 27.55% 48.0%, rgba(255, 255, 255, 0.001) 48.05%),
+      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 23.75%, #006633 23.8% 50%, rgba(255, 255, 255, 0.001) 50.05%),
+      linear-gradient(174deg, #ffcc33 16%, black 16.05%);
   }
 }
 
@@ -299,7 +299,7 @@ dl dd {
 
 @media only screen and (max-width: 768px){
  .bodytext{
-    font-size: 1.25rem;
+    font-size: 1rem;
  }
 }
 
@@ -519,6 +519,7 @@ html input[disabled] {
 }
 
 .button {
+  width: 250px;
   cursor: pointer;
   border: 1px solid #d7d7d7;
   background-color: #f3f3f3;
@@ -613,8 +614,8 @@ html input[disabled] {
     clear: both; } }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
   margin-left: auto;
   margin-right: auto; }
 
@@ -2026,12 +2027,12 @@ input.field {
   /*For mobile*/
   width: 100%;
   left: 0%;
-  top: 330px;
+  top: 440px;
 }
 @media only screen and (min-width: 375px){
     .canvas-wrapper{
       width: 100%;
-      top: 305px; /*370px;*/
+      top: 385px; /*370px;*/
       left: 0%;
     }
   }
@@ -2039,7 +2040,7 @@ input.field {
 @media only screen and (min-width: 425px){
     .canvas-wrapper{
       width: 60%;
-      top: 380px;
+      top: 465px;
       left: 20%;
     }
   }
@@ -2047,7 +2048,7 @@ input.field {
 @media only screen and (min-width: 550px){
     .canvas-wrapper{
       width: 50%;
-      top: 380px; /*50%;*/
+      top: 470px; /*50%;*/
       left: 25%;
     }
   }
@@ -2055,16 +2056,16 @@ input.field {
 @media only screen and (min-width: 650px){
     .canvas-wrapper{
       width: 40%;
-      top: 380px; /*50%;*/
+      top: 470px; /*50%;*/
       left: 30%;
     }
   }
 
 @media only screen and (min-width: 740px){
     .canvas-wrapper{
-      width: 40%;
-      top: 315px; /*50%;*/
-      left: 30%;
+      width: 35%;
+      top: 435px; /*50%;*/
+      left: 32.5%;
     }
   }
 
@@ -2130,24 +2131,24 @@ input.field {
 
 .banner-padding{
  padding-top: 40px;
- padding-bottom: 550px;
+ padding-bottom: 650px;
 }
 @media only screen and (min-width: 426px){
  .banner-padding{
     padding-top: 75px;
-    padding-bottom: 525px;
+    padding-bottom: 625px;
  }
 }
 @media only screen and (min-width: 650px){
  .banner-padding{
     padding-top: 75px;
-    padding-bottom: 500px;
+    padding-bottom: 600px;
  }
 }
 @media only screen and (min-width: 740px){
  .banner-padding{
     padding-top: 50px;
-    padding-bottom: 400px;
+    padding-bottom: 500px;
  }
 }
 @media only screen and (min-width: 768px){
