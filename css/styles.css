@@ -72,7 +72,7 @@ body {
   color: #006633;
   font-weight: 400;
 
-  background: linear-gradient(#ffcc33, #006633);
+  background: linear-gradient(transparent 20%, #006633 20%, mediumseagreen), linear-gradient(95deg, #ffcc33 50vw, black 50vw);
 
   background-image: 
     linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
@@ -2204,7 +2204,8 @@ input.field {
 }
 @media only screen and (max-width: 767px){
  .banner-heading-wrapper{
-    width: 100%;
+    width: 90%;
+	margin: 0 5%;
     text-align: center;
  }
 }
