@@ -74,55 +74,60 @@ body {
 
   background: linear-gradient(#ffcc33, #006633);
 
-  background-image:
+  background-image: 
     linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
-    linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
-    linear-gradient(174deg, rgba(255, 255, 255, 0.001) 27.5%, #006633 27.55% 45.6%, rgba(255, 255, 255, 0.001) 45.65%),
-    linear-gradient(7deg, rgba(255, 255, 255, 0.001) 18.5%, #006633 18.55% 48%, rgba(255, 255, 255, 0.001) 48.05%),
-    linear-gradient(105deg, #ffcc33 53vw, black 53.075vw);
+	linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
+	linear-gradient(174deg, rgba(255, 255, 255, 0.001) 22.5%, #006633 22.55% 34%, rgba(255, 255, 255, 0.001) 34.05%),
+	linear-gradient(5deg, rgba(255, 255, 255, 0.001) 40.5%, #006633 40.55% 64%, rgba(255, 255, 255, 0.001) 64.05%),
+	linear-gradient(174deg, rgba(255, 255, 255, 0.001) 63.5%, #006633 63.55% 84.6%, rgba(255, 255, 255, 0.001) 84.65%),
+	linear-gradient(105deg, #ffcc33 53vw, black 53.075vw)
 }
 
 @media only screen and (max-width: 980px){
   body{
     background-image:
       linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 27.5%, #006633 27.55% 45.6%, rgba(255, 255, 255, 0.001) 45.65%),
-      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 18.75%, #006633 18.8% 48%, rgba(255, 255, 255, 0.001) 48.05%),
-      linear-gradient(98deg, #ffcc33 53vw, black 53.075vw);
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 21.5%, #006633 21.55% 31%, rgba(255, 255, 255, 0.001) 31.05%),
+ 	  linear-gradient(5deg, rgba(255, 255, 255, 0.001) 39.5%, #006633 39.55% 66%, rgba(255, 255, 255, 0.001) 66.05%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 65.5%, #006633 65.55% 85.6%, rgba(255, 255, 255, 0.001) 85.65%),
+  	  linear-gradient(97deg, #ffcc33 53vw, black 53.075vw);
   }
 }
 
 @media only screen and (max-width: 767px){
   body{
-    background-image:
-      linear-gradient(184deg, rgba(255, 255, 255, 0.001) 84.3%, #006633 84.35% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 83.75%, #006633 83.8% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 28.5%, #006633 28.55% 41.6%, rgba(255, 255, 255, 0.001) 41.65%),
-      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 20.75%, #006633 20.8% 47%, rgba(255, 255, 255, 0.001) 47.05%),
-      linear-gradient(174deg, #ffcc33 20%, black 20.05%)
+    background-image: 
+      linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
+      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
+	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 19.5%, #006633 19.55% 28%, rgba(255, 255, 255, 0.001) 28.05%),
+ 	  linear-gradient(5deg, rgba(255, 255, 255, 0.001) 37.5%, #006633 37.55% 69%, rgba(255, 255, 255, 0.001) 69.05%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 67.5%, #006633 67.55% 85.6%, rgba(255, 255, 255, 0.001) 85.65%),
+  	  linear-gradient(174deg, #ffcc33 58vw, black 58.075vw);
   }
 }
 
 @media only screen and (max-width: 740px){
   body{
-    background-image:
-      linear-gradient(184deg, rgba(255, 255, 255, 0.001) 84.3%, #006633 84.35% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 83.75%, #006633 83.8% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 28%, #006633 28.05% 41.6%, rgba(255, 255, 255, 0.001) 41.65%),
-      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 24.75%, #006633 24.8% 50%, rgba(255, 255, 255, 0.001) 50.05%),
-      linear-gradient(174deg, #ffcc33 19%, black 19.05%)
+    background-image: 
+      linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 19.5%, #006633 19.55% 28%, rgba(255, 255, 255, 0.001) 28.05%),
+ 	  linear-gradient(5deg, rgba(255, 255, 255, 0.001) 38.5%, #006633 38.55% 69%, rgba(255, 255, 255, 0.001) 69.05%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 64.5%, #006633 64.55% 83.6%, rgba(255, 255, 255, 0.001) 83.65%),
+  	  linear-gradient(174deg, #ffcc33 61vw, black 61.075vw);
   }
 }
 
 @media only screen and (max-width: 425px){
   body{
     background-image: 
-      linear-gradient(184deg, rgba(255, 255, 255, 0.001) 84.3%, #006633 84.35% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 83.75%, #006633 83.8% 100%, rgba(255, 255, 255, 0.001) 100%),
-      linear-gradient(174deg, rgba(255, 255, 255, 0.001) 27.5%, #006633 27.55% 48.0%, rgba(255, 255, 255, 0.001) 48.05%),
-      linear-gradient(7deg, rgba(255, 255, 255, 0.001) 23.75%, #006633 23.8% 50%, rgba(255, 255, 255, 0.001) 50.05%),
-      linear-gradient(174deg, #ffcc33 16%, black 16.05%);
+      linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 18.5%, #006633 18.55% 27%, rgba(255, 255, 255, 0.001) 27.05%),
+ 	  linear-gradient(5deg, rgba(255, 255, 255, 0.001) 36.0%, #006633 36.05% 71.5%, rgba(255, 255, 255, 0.001) 71.55%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 67.5%, #006633 67.55% 83.75%, rgba(255, 255, 255, 0.001) 83.8%),
+	  linear-gradient(174deg, #ffcc33 100vw, black 61.075vw);
   }
 }
 
@@ -1862,7 +1867,7 @@ input.field {
   width: 100%;
   height: 7px;
   border: 0;
-  background-color: #f3f3f3;
+  background-color: transparent;
   margin-top: 0;
   margin-bottom: 0; }
 
@@ -2203,6 +2208,10 @@ input.field {
       width: 48%;
     }
   }
+
+.faq_itm{
+	padding 0 10px;
+}
 
 .objective {
   position: relative;
