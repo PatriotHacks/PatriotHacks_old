@@ -72,7 +72,7 @@ body {
   color: #006633;
   font-weight: 400;
 
-  background: linear-gradient(transparent 20%, #006633 20%, mediumseagreen), linear-gradient(95deg, #ffcc33 50vw, black 50vw);
+  background: linear-gradient(#ffcc33, mediumseagreen, #006633);
 
   background-image: 
     linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
