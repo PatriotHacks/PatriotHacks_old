@@ -74,13 +74,26 @@ body {
 
   background: linear-gradient(#ffcc33, mediumseagreen, #006633);
 
+  background: 
+    linear-gradient(174deg, #ffcc33 10%, transparent 10.05%),
+	linear-gradient(174deg, black 17.5%, transparent 17.5%),
+	linear-gradient(174deg, #006633 27%, transparent 27%),
+	linear-gradient(174deg, black 27.125%, transparent 27.125%),
+	linear-gradient(184deg, black 27.85%, transparent 27.85%),
+	linear-gradient(184deg, #006633 65%, transparent 65%),
+	linear-gradient(black 67%, transparent 67%),
+	linear-gradient(174deg, black 69%, transparent 69%),
+	linear-gradient(174deg, #006633 85%, transparent 85%),
+	linear-gradient(174deg, black 89%, transparent 89%),
+	#006633;
+
   background-image: 
     linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
 	linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
 	linear-gradient(174deg, rgba(255, 255, 255, 0.001) 22.5%, #006633 22.55% 34%, rgba(255, 255, 255, 0.001) 34.05%),
 	linear-gradient(5deg, rgba(255, 255, 255, 0.001) 40.5%, #006633 40.55% 64%, rgba(255, 255, 255, 0.001) 64.05%),
 	linear-gradient(174deg, rgba(255, 255, 255, 0.001) 63.5%, #006633 63.55% 84.6%, rgba(255, 255, 255, 0.001) 84.65%),
-	linear-gradient(105deg, #ffcc33 53vw, black 53.075vw)
+	linear-gradient(105deg, #ffcc33 53vw, black 53.075vw);
 }
 
 @media only screen and (max-width: 980px){
@@ -133,18 +146,6 @@ body {
 
 @media only screen and (max-width: 380px){
   body{
-	background: 
-      linear-gradient(174deg, #ffcc33 10%, transparent 10.05%),
-	  linear-gradient(174deg, black 17.5%, transparent 17.5%),
-	  linear-gradient(174deg, #006633 27%, transparent 27%),
-	  linear-gradient(174deg, black 27.125%, transparent 27.125%),
-	  linear-gradient(184deg, black 27.85%, transparent 27.85%),
-	  linear-gradient(184deg, #006633 65%, transparent 65%),
-	  linear-gradient(black 67%, transparent 67%),
-	  linear-gradient(174deg, black 69%, transparent 69%),
-	  linear-gradient(174deg, #006633 85%, transparent 85%),
-	  linear-gradient(174deg, black 89%, transparent 89%),
-	  #006633;
     background-image: 
       linear-gradient(184deg, rgba(255, 255, 255, 0.001) 84.3%, #006633 84.35% 100%, rgba(255, 255, 255, 0.001) 100%),
   	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 83.75%, #006633 83.8% 100%, rgba(255, 255, 255, 0.001) 100%),
