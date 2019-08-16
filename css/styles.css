@@ -89,7 +89,7 @@ body {
       linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
  	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
  	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 21.5%, #006633 21.55% 31%, rgba(255, 255, 255, 0.001) 31.05%),
- 	  linear-gradient(5deg, rgba(255, 255, 255, 0.001) 39.5%, #006633 39.55% 66%, rgba(255, 255, 255, 0.001) 66.05%),
+ 	  linear-gradient(5deg, rgba(255, 255, 255, 0.001) 38.5%, #006633 38.55% 66%, rgba(255, 255, 255, 0.001) 66.05%),
  	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 65.5%, #006633 65.55% 85.6%, rgba(255, 255, 255, 0.001) 85.65%),
   	  linear-gradient(97deg, #ffcc33 53vw, black 53.075vw);
   }
@@ -113,9 +113,9 @@ body {
       linear-gradient(184deg, rgba(255, 255, 255, 0.001) 89.3%, #006633 89.35% 100%, rgba(255, 255, 255, 0.001) 100%),
  	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 87.75%, #006633 87.8% 100%, rgba(255, 255, 255, 0.001) 100%),
  	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 19.5%, #006633 19.55% 28%, rgba(255, 255, 255, 0.001) 28.05%),
- 	  linear-gradient(5deg, rgba(255, 255, 255, 0.001) 38.5%, #006633 38.55% 69%, rgba(255, 255, 255, 0.001) 69.05%),
+ 	  linear-gradient(5deg, rgba(255, 255, 255, 0.001) 36.5%, #006633 36.55% 71%, rgba(255, 255, 255, 0.001) 71.05%),
  	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 64.5%, #006633 64.55% 83.6%, rgba(255, 255, 255, 0.001) 83.65%),
-  	  linear-gradient(174deg, #ffcc33 61vw, black 61.075vw);
+	  linear-gradient(174deg, #ffcc33 12%, black 12.05%);
   }
 }
 
@@ -128,6 +128,30 @@ body {
  	  linear-gradient(5deg, rgba(255, 255, 255, 0.001) 36.0%, #006633 36.05% 71.5%, rgba(255, 255, 255, 0.001) 71.55%),
  	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 67.5%, #006633 67.55% 83.75%, rgba(255, 255, 255, 0.001) 83.8%),
 	  linear-gradient(174deg, #ffcc33 100vw, black 61.075vw);
+  }
+}
+
+@media only screen and (max-width: 380px){
+  body{
+    background-image: 
+      linear-gradient(184deg, rgba(255, 255, 255, 0.001) 84.3%, #006633 84.35% 100%, rgba(255, 255, 255, 0.001) 100%),
+  	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 83.75%, #006633 83.8% 100%, rgba(255, 255, 255, 0.001) 100%),
+  	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 17.5%, #006633 17.55% 27%, rgba(255, 255, 255, 0.001) 27.05%),
+ 	  linear-gradient(7deg, rgba(255, 255, 255, 0.001) 34.75%, #006633 34.8% 72.5%, rgba(255, 255, 255, 0.001) 72.55%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 69.5%, #006633 69.55% 85.0%, rgba(255, 255, 255, 0.001) 85.05%),
+	  linear-gradient(174deg, #ffcc33 10%, black 10.05%);
+  }
+}
+
+@media only screen and (max-width: 320px){
+  body{
+    background-image: 
+      linear-gradient(184deg, rgba(255, 255, 255, 0.001) 84.3%, #006633 84.35% 100%, rgba(255, 255, 255, 0.001) 100%),
+	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 83.75%, #006633 83.8% 100%, rgba(255, 255, 255, 0.001) 100%),
+	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 16.5%, #006633 16.55% 25%, rgba(255, 255, 255, 0.001) 25.05%),
+ 	  linear-gradient(7deg, rgba(255, 255, 255, 0.001) 32.75%, #006633 32.8% 74.25%, rgba(255, 255, 255, 0.001) 74.3%),
+ 	  linear-gradient(174deg, rgba(255, 255, 255, 0.001) 70.5%, #006633 70.55% 85.0%, rgba(255, 255, 255, 0.001) 85.05%),
+  	  linear-gradient(174deg, #ffcc33 10%, black 10.05%);
   }
 }
 
@@ -2055,7 +2079,7 @@ input.field {
 @media only screen and (min-width: 550px){
     .canvas-wrapper{
       width: 50%;
-      top: 470px; /*50%;*/
+      top: 450px; /*50%;*/
       left: 25%;
     }
   }
@@ -2079,7 +2103,7 @@ input.field {
 @media only screen and (min-width: 768px){
     .canvas-wrapper{
       width: 50%;
-      top: 10%;
+      top: 3%;
       left: 50%;
     }
   }
@@ -2134,7 +2158,7 @@ input.field {
 
   color: white;/*#fff;*/
   /*Complementary: #3366ff*/
-  opacity: 0.9 }
+  opacity: 0.999; }
 
 .banner-padding{
  padding-top: 40px;
@@ -2210,7 +2234,7 @@ input.field {
   }
 
 .faq_itm{
-	padding 0 10px;
+	padding: 0 15px;
 }
 
 .objective {
