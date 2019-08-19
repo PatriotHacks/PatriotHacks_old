@@ -715,11 +715,13 @@ a {
 
 .canvas-wrapper {
   width: 50%;
+  padding: 25vh 0;
 }
 
 @media only screen and (max-width: 768px){
 	.canvas-wrapper{
 		width: 100%;
+    padding: 0;
 	}
 }
 
@@ -770,12 +772,17 @@ a {
 	padding: 25vh 0;
 
 	text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 @media only screen and (max-width: 768px){
  .banner-heading-wrapper{
     width: 90%;
-	margin: 0 5%;
-	padding: 0;
+    margin: 0 5%;
+    padding: 0;
     text-align: center;
  }
 }

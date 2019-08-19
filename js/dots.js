@@ -203,7 +203,7 @@ var Nodes = {
 
     Nodes.t += 6;
 
-    console.log(Nodes.mouse.x);
+    //console.log(Nodes.mouse.x);
 
     this.animation = requestAnimationFrame( function(){ Nodes.draw() } );
 
