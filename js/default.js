@@ -7,30 +7,8 @@ WebFont.load({
   }
 });
 
-// Logo Animation
-$svg = $('.logo > svg').drawsvg({
-  duration: 1500,
-  callback: function() {
-    $('.logo').addClass('active');
-  }
-});
-
-function animateLogo() {
-  $svg.drawsvg('animate');  
-}
-
-animateLogo();
-
-
-// Swipe Controls for Carousel
-$('.carousel').swiperight(function() {
-  $(this).carousel('prev');
-});
-$('.carousel').swipeleft(function() {
-  $(this).carousel('next');
-});
-
-// Google Map
+// Google Map -- currently unused
+/*
 function googleMap() {
   var map = document.getElementById('google-map');
 
@@ -51,3 +29,7 @@ function googleMap() {
   });
 }
 google.maps.event.addDomListener(window, 'load', googleMap);
+*/
+
+//metismenu
+$("#metismenu").metisMenu();
