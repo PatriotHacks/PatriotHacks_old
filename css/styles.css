@@ -74,8 +74,13 @@ body {
 	linear-gradient(0.2725turn, #ffcc33 54vw, black 54vw);
 }
 
-
-p{
+@media only screen and (max-width: 768px){
+  body{
+    background-image: linear-gradient(black 100vh, #006633 100vh);
+		/*linear-gradient(black 825px, transparent 825px), 
+		linear-gradient(#ffcc33 1010px, transparent 1010px), 
+		linear-gradient(#006633, #006633);*/
+  }
 }
 
 a {
@@ -514,6 +519,20 @@ a {
   color: #006633; 
   text-shadow: 2px 2px white;  }
 
+@media only screen and (max-width: 768px){
+	.banner-heading-buttons{
+		background: #ffcc33;
+		border: 1px solid #ffcc33;
+		border-radius: 5px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.button-heading-fit{
+		margin: 20px 0 10px;
+	}
+}
+
 .icon {
   position: relative;
   display: inline-block; }
@@ -929,10 +948,10 @@ section{
 }
 
 #home{
-	height: 100vh;
+  height: 100vh;
 
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
   background-image: linear-gradient(0.2725turn, #ffcc33 50%, black 50%);
 }
@@ -942,6 +961,8 @@ section{
 		flex-direction: column-reverse;
 		height: fit-content;
 		min-height: 100vh;
+
+		background-image: none;
 	}
 }
 
@@ -960,9 +981,17 @@ section{
 }
 
 @media only screen and (max-width: 768px){
+	#aboutUs>.textbox{
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 768px){
 	#aboutUs{
-		height: 50vh;
-		padding: 25vh 0;
+		padding: 10vh 0;
+		margin-top: 0px;
+
+		background-image: none;
 	}
 }
 
@@ -978,6 +1007,14 @@ section{
   /*transform: translate3d(0px, -45%, 100px);*/
 }
 
+@media only screen and (max-width: 768px){
+	#faq{
+		background-image: none;
+		padding: 10vh 0;
+		margin-top: 0px;
+	}
+}
+
 #sponsor{
   background-image: linear-gradient(174deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 70%, rgba(255, 255, 255, 0.001) 70%);
   padding: 650px 0;
@@ -989,8 +1026,22 @@ section{
   justify-content: center;
 }
 
+@media only screen and (max-width: 768px){
+	#sponsor{
+		background-image: none;
+		padding: 10vh 0;
+		margin: 0;
+	}
+}
+
 #contact{
   margin-top: -100px;
+}
+
+@media only screen and (max-width: 768px){
+	#contact{
+		margin: 0;
+	}
 }
 
 .footerContainer{
@@ -1002,6 +1053,32 @@ section{
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%
+}
+
+@media only screen and (max-width: 768px){
+	.footerFlexBox{
+		flex-direction: column;
+	}
+}
+
+.footerLarge{
+	width: 40%;
+}
+
+@media only screen and (max-width: 768px){
+	.footerLarge{
+		width: 100%;
+	}
+}
+
+.footerSmall{
+	width: 20%;
+}
+
+@media only screen and (max-width: 768px){
+	.footerSmall{
+		width: 100%;
+	}
 }
 
 .footer {
