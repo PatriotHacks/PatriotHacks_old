@@ -469,6 +469,27 @@ html input[disabled] {
   .button:hover {
     background: #f9f9f9; }
 
+
+.button {
+  border: 0;
+  background-color: #525b64;
+  line-height: normal;
+  padding: 12px 26px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  font-weight: 700;
+  overflow: hidden;
+  border-radius: 5px; }
+  .button:hover, .button:active {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3f464c; }
+
 .button-link {
   color: #2cc7c1;
   text-decoration: underline;
@@ -494,26 +515,6 @@ a {
   transition: all .2s; }
   a:hover {
     text-decoration: underline; }
-
-.button {
-  border: 0;
-  background-color: #525b64;
-  line-height: normal;
-  padding: 12px 26px;
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-  text-transform: uppercase;
-  position: relative;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  font-weight: 700;
-  overflow: hidden;
-  border-radius: 5px; }
-  .button:hover, .button:active {
-    text-decoration: none;
-    color: #fff;
-    background-color: #3f464c; }
 
 .banner-heading {
   color: #006633; 
@@ -1079,11 +1080,6 @@ section{
 	.footerSmall{
 		width: 100%;
 	}
-}
-
-.footer {
-  color: #ffffff; /*#f3f3f3;*/
-  /*background: #525b64; */
 }
 
 .footer-content-blocks {
