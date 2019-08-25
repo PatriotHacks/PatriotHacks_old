@@ -832,6 +832,7 @@ a {
 
 .faq_row {
   width: 100%;
+  list-style: none;
 }
  @media only screen and (min-width: 768px){
 	.faq_row{
@@ -841,6 +842,11 @@ a {
 
 .faq_itm{
 	padding: 0 15px;
+}
+
+.faq_itm>a{
+	color: aqua;
+	font-size: 1.5rem;
 }
 
 .sponsorDisplay{
