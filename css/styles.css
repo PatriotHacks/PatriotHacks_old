@@ -84,16 +84,17 @@ body {
 }
 
 a {
-  color: aqua; /*#2cc7c1;*/
+  color: burlywood; /*#2cc7c1;*/
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; 
 }
 
 a:active, a:hover {
-    color: crimson;
+    color: wheat;
     outline-width: 0;
-    text-decoration: none; 
+    text-decoration: none;
+    text-shadow: 0px 0px 20px #fff5;	
 }
 
 h1 {
@@ -450,45 +451,37 @@ html input[disabled] {
 :-ms-input-placeholder {
   color: #999; }
 
-.button {
+.button{
+  display: inline-block;
+  position: relative;
   width: 250px;
   height: 30px;
   margin: 0 0 8px;
-  cursor: pointer;
-  border: 1px solid #d7d7d7;
-  background-color: #f3f3f3;
-  line-height: normal;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #363636;
-  display: inline-block;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s; }
-  .button:hover, .button:active {
-    text-decoration: none; }
-  .button:hover {
-    background: #f9f9f9; }
+  padding: 6px 0 0;
 
+  color: white;
+  border: 1px solid #006633;
+  border-radius: 5px;
+  background-color: #006633;
+  box-shadow: 3px 3px 0px white;
 
-.button {
-  border: 0;
-  background-color: #525b64;
   line-height: normal;
-  padding: 12px 26px;
+  text-shadow: none;
   text-decoration: none;
-  color: #fff;
-  display: inline-block;
   text-transform: uppercase;
-  position: relative;
-  -webkit-transition: all .2s;
-  transition: all .2s;
   font-weight: 700;
   overflow: hidden;
-  border-radius: 5px; }
-  .button:hover, .button:active {
-    text-decoration: none;
-    color: #fff;
-    background-color: #3f464c; }
+
+  transition: all 0.2s;
+}
+
+.button:hover{
+	color: #006633;
+	background-color: white;
+	box-shadow: 3px 3px 0px #006633;
+
+	text-decoration: none;
+}
 
 .button-link {
   color: #2cc7c1;
@@ -732,7 +725,7 @@ a {
 
 .canvas-wrapper {
   width: 50%;
-  padding: 25vh 0;
+  padding: 20vh 0;
 }
 
 .canvas-clamp{
@@ -841,12 +834,42 @@ a {
 }
 
 .faq_itm{
-	padding: 0 15px;
+	padding: 5px;
+	margin: 5px;
+
+	background: #006633;
+	box-shadow: 1px 1px 0px white;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.faq_itm:hover{
+	
+	background: white;	
+	box-shadow: 1px 1px 0px mediumseagreen;
+	border: 1px solid mediumseagreen;
+
 }
 
 .faq_itm>a{
-	color: aqua;
-	font-size: 1.5rem;
+	color: white;
+	font-size: 1.25rem;
+}
+
+.faq_itm:hover>a{
+	color: #006633;
+	text-decoration: none;
+}
+
+.faq_itm>ul{
+	color: white;
+	text-align: justify;
+
+	padding: 0 10px;
+}
+
+.faq_itm:hover>ul{
+	color: #006633;
 }
 
 .sponsorDisplay{
