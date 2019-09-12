@@ -885,7 +885,7 @@ a {
 @media only screen and (max-width: 768px){
 	.sponsorDisplay{
 		width: 90%;
-		margin: 20px 5%;
+		margin: 5px 5%;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -902,12 +902,18 @@ a {
 }
 
 .cohost {
-  height: 100px;
-  width: 350px;
+  height: 150px;
+  width: 575px;
   margin: 0 25px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media only screen and (max-width: 320px){
+	.cohost{
+		height: 55px;
+	}
 }
 
 .sponsor {
@@ -923,7 +929,7 @@ a {
   height: 100px;
   width: 350px;
   margin: 0 25px;
-  background-position: 50% 50%;
+  background-position: 50% 5%;
   background-repeat: no-repeat;
   background-size: 45%;
 }
