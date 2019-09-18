@@ -874,7 +874,7 @@ a {
 
 .sponsorDisplay{
 	width: 80%;
-	margin: 20px 10%;
+	margin: 5px 10%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -1090,9 +1090,9 @@ section{
 }
 
 #sponsor{
-  background-image: linear-gradient(174deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 70%, rgba(255, 255, 255, 0.001) 70%);
-  padding: 650px 0;
-  margin-top: -675px;
+  background-image: linear-gradient(174deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 72%, rgba(255, 255, 255, 0.001) 72%);
+  padding: 675px 0;
+  margin-top: -650px;
   /*transform: translate(0, -45%);*/
 
   display: flex;
