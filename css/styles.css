@@ -823,6 +823,57 @@ a {
 	}
 }
 
+.scheduleBody{
+	width: 400px;
+	height: 500px;
+	margin: 25px auto;
+	border: 5px solid #ffcc33;
+	border-radius: 75px;
+}
+
+.scheduleHeader{
+	margin: -30px auto 0;
+	width: 50%;
+	padding: 10px 0;
+	text-align: center;
+
+	background: #006633;
+	border: 5px solid #ffcc33;
+	border-radius: 50px;
+}
+
+.scheduleOverview{
+	height: 75%;	
+	margin: 10% 0 15%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.scheduleItem, .scheduleItemHeader{
+	display: flex;
+	height: fit-content;
+	width: 100%;
+	text-align: center;
+}
+
+.scheduleItemHeader>h4{
+	width: 100%;
+	margin: 0;
+	color: #ffcc33;
+}
+
+.scheduleItem>h4{
+	width: 35%;
+	margin: 0;
+	color: #ffcc33;
+}
+
+.scheduleItem>p{
+	width: 65%;
+	margin: 0;
+}
+
 .faq_row {
   width: 100%;
   list-style: none;
@@ -1067,6 +1118,16 @@ section{
 
 		background-image: none;
 	}
+}
+
+#schedule{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 400px 0;
+  margin-top: -350px;
+
+  background-image: linear-gradient(6deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 70%, rgba(255, 255, 255, 0.001) 70%);
 }
 
 #faq{
