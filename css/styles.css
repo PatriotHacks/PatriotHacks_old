@@ -980,7 +980,7 @@ a {
 .cohost {
   height: 150px;
   width: 575px;
-  margin: 0 25px;
+  margin: 10px 25px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
