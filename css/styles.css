@@ -1149,7 +1149,7 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 400px 0;
+  padding: 450px 0 400px;
   margin-top: -350px;
 
   background-image: linear-gradient(6deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 70%, rgba(255, 255, 255, 0.001) 70%);
@@ -1162,7 +1162,7 @@ section{
   padding: 400px 0;
   margin-top: -350px;
 
-  background-image: linear-gradient(6deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 70%, rgba(255, 255, 255, 0.001) 70%);
+  background-image: linear-gradient(174deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 70%, rgba(255, 255, 255, 0.001) 70%);
 
   /*transform: translate3d(0px, -45%, 100px);*/
 }
@@ -1176,7 +1176,7 @@ section{
 }
 
 #sponsor{
-  background-image: linear-gradient(174deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 72%, rgba(255, 255, 255, 0.001) 72%);
+  background-image: linear-gradient(6deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 72%, rgba(255, 255, 255, 0.001) 72%);
   padding: 675px 0;
   margin-top: -650px;
   /*transform: translate(0, -45%);*/
