@@ -825,7 +825,7 @@ a {
 
 .scheduleBody{
 	width: 400px;
-	height: 500px;
+	height: 450px;
 	margin: 25px auto;
 	border: 5px solid #ffcc33;
 	border-radius: 75px;
@@ -850,28 +850,53 @@ a {
 	flex-direction: column;
 }
 
+.scheduleBreak{
+	width: 100%;
+	margin: 20px 0;
+}
+
 .scheduleItem, .scheduleItemHeader{
 	display: flex;
-	height: fit-content;
+	height: 30px; /*fit-content;*/
 	width: 100%;
-	text-align: center;
+	margin: 2px 0;
+	text-align: left;
 }
 
 .scheduleItemHeader>h4{
 	width: 100%;
 	margin: 0;
+	padding-left: 15%;
 	color: #ffcc33;
+}
+
+.scheduleItem:hover{
+	background: black;
+	color: white;
 }
 
 .scheduleItem>h4{
 	width: 35%;
 	margin: 0;
 	color: #ffcc33;
+	
+	padding-left: 15%;
+}
+
+.scheduleItem:hover>h4{
+	color: white;
+	text-shadow: 0px 0px 3px white;
 }
 
 .scheduleItem>p{
 	width: 65%;
 	margin: 0;
+
+	padding-left: 15%;
+}
+
+.scheduleItem:hover>p{
+	text-shadow: 0px 0px 3px white;
 }
 
 .faq_row {
