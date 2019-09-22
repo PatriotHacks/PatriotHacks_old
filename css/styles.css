@@ -831,6 +831,12 @@ a {
 	border-radius: 75px;
 }
 
+@media only screen and (max-width: 400px){
+	.scheduleBody{
+		width: 100%;
+	}
+}
+
 .scheduleHeader{
 	margin: -30px auto 0;
 	width: 50%;
@@ -866,7 +872,7 @@ a {
 .scheduleItemHeader>h4{
 	width: 100%;
 	margin: 0;
-	padding-left: 15%;
+	padding-left: 10%;
 	color: #ffcc33;
 }
 
@@ -880,7 +886,7 @@ a {
 	margin: 0;
 	color: #ffcc33;
 	
-	padding-left: 15%;
+	padding-left: 10%;
 }
 
 .scheduleItem:hover>h4{
@@ -892,7 +898,7 @@ a {
 	width: 65%;
 	margin: 0;
 
-	padding-left: 15%;
+	padding-left: 5%;
 }
 
 .scheduleItem:hover>p{
@@ -1123,7 +1129,7 @@ section{
   background-image: linear-gradient(174deg, rgba(255, 255, 255, 0.001) 25%, #006633 25% 75%, rgba(255, 255, 255, 0.001) 75%);
 
   /*transform: translate(0px, -30%);*/
-  margin-top: -225px;
+  margin-top: -250px;
 }
 
 #aboutUs>.textbox{
@@ -1153,6 +1159,12 @@ section{
   margin-top: -350px;
 
   background-image: linear-gradient(6deg, rgba(255, 255, 255, 0.001) 28%, #006633 28% 70%, rgba(255, 255, 255, 0.001) 70%);
+}
+
+@media only screen and (max-width: 768px){
+	#schedule{
+		padding: 450px 0 0;
+	}
 }
 
 #faq{
