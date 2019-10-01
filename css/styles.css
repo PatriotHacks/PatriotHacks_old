@@ -409,6 +409,7 @@ h3{
   z-index: 1;
   transform: skewX(0deg);
   margin: 25vh 0;
+  padding: 0 0 0 65px;
   transition: 1.5s;
 }
 .skw-page-3.inactive .skw-page__content{
@@ -420,7 +421,14 @@ h3{
   width: 0; height: 0; border: 1px solid transparent;
 }
 .skw-page-3.active .skw-page__content .scheduleWrapper {
-
+	width: 500px;
+	margin: auto;
+}
+@media only screen and (max-width: 768px){
+  .skw-page-3.active .skw-page__content .scheduleWrapper {
+	  width: 100%;
+	  margin: auto;
+  }
 }
 .skw-page-3.active .skw-page__content .scheduleBody {
   border: 5px solid #006633;
@@ -542,134 +550,220 @@ h3{
 }
 
 .skw-page-3:not(.active) .skw-page__content .sBStarA{
-  transform: translate(20vw, 1vh) scale(0.0) rotate(0.0);
+  transform: scale(0.0) rotate(0.0);
+  position: relative;
+  left: 250px;
+  top: 10px;
 }
 .skw-page-3.active .skw-page__content .sBStarA{
-  transform: translate(20vw, 1vh) scale(1.2) rotate(90deg);
+  transform: scale(1.2) rotate(90deg);
   background-size: cover;
+  position: relative;
+  left: 250px;
+  top: 10px;
   transition: 0.45s cubic-bezier(0.680, -0.950, 0.265, 2.550) 2.1s;
 }
 @media only screen and (max-width: 768px){
  .skw-page-3:not(.active) .skw-page__content .sBStarA{
-   transform: translate(20vw, 1vh) scale(0.0) rotate(0.0);
+   transform: scale(0.0) rotate(0.0);
+   position: relative;
+   left: calc(50% + 25px);
+   top: 10px;
  }
  .skw-page-3.active .skw-page__content .sBStarA{
-   transform: translate(20vw, 1vh) scale(1.2) rotate(90deg);
+   transform: scale(1.2) rotate(90deg);
    background-size: cover;
+   position: relative;
+   left: calc(50% + 25px);
+   top: 10px;
    transition: 0.45s cubic-bezier(0.680, -0.950, 0.265, 2.550) 2.1s;
  }
 }
 
 .skw-page-3:not(.active) .skw-page__content .sBStarB{
-  transform: translate(6vw, -70vh) scale(0.0) rotate(0.0);
+  transform: scale(0.0) rotate(0.0);
+  position: relative;
+  left: 115px;
+  top: -350px;
 }
 .skw-page-3.active .skw-page__content .sBStarB{
-  transform: translate(6vw, -70vh) scale(1.2) rotate(90deg);
+  transform: scale(1.2) rotate(90deg);
   background-size: cover;
+  position: relative;
+  left: 115px;
+  top: -350px;
   transition: 0.31s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.75s;
 }
 @media only screen and (max-width: 768px){
  .skw-page-3:not(.active) .skw-page__content .sBStarB{
-   transform: translate(6vw, -70vh) scale(0.0) rotate(0.0);
+   transform: scale(0.0) rotate(0.0);
+   position: relative;
+   left: calc(50% - 115px);
+   top: -350px;
  }
  .skw-page-3.active .skw-page__content .sBStarB{
-   transform: translate(6vw, -70vh) scale(1.2) rotate(90deg);
+   transform: scale(1.2) rotate(90deg);
    background-size: cover;
+   position: relative;
+   left: calc(50% - 115px);
+   top: -350px;
    transition: 0.31s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.75s;
  }
 }
 
 .skw-page-3:not(.active) .skw-page__content .sBStarC{
-  transform: translate(12vw, -82vh) scale(0.0) rotate(0.0);
+  transform: scale(0.0) rotate(0.0);
+  position: relative;
+  left: 165px;
+  top: -385px;
 }
 .skw-page-3.active .skw-page__content .sBStarC{
-  transform: translate(12vw, -82vh) scale(1.1) rotate(-10deg);
+  transform: scale(1.1) rotate(-10deg);
   background-size: cover;
+  position: relative;
+  left: 165px;
+  top: -385px;
   transition: 0.37s cubic-bezier(0.680, -0.750, 0.265, 1.350) 1.925s;
 }
 @media only screen and (max-width: 768px){
  .skw-page-3:not(.active) .skw-page__content .sBStarC{
-   transform: translate(12vw, -82vh) scale(0.0) rotate(0.0);
+   transform: scale(0.0) rotate(0.0);
+   position: relative;
+   left: calc(50% - 85px);
+   top: -385px;
  }
  .skw-page-3.active .skw-page__content .sBStarC{
-   transform: translate(12vw, -82vh) scale(1.1) rotate(-10deg);
+   transform: scale(1.1) rotate(-10deg);
    background-size: cover;
+   position: relative;
+   left: calc(50% - 85px);
+   top: -385px;
    transition: 0.37s cubic-bezier(0.680, -0.750, 0.265, 1.350) 1.925s;
  }
 }
 
 .skw-page-3:not(.active) .skw-page__content .sBStarD{
-  transform: translate(34vw, -11vh) scale(0.0) rotate(0.0);
+  transform: scale(0.0) rotate(0.0);
+  position: relative;
+  left: 200px;
+  top: 0px;
 }
 .skw-page-3.active .skw-page__content .sBStarD{
-  transform: translate(34vw, -11vh) scale(1.7) rotate(40deg);
+  transform: scale(1.7) rotate(40deg);
+  position: relative;
+  left: 200px;
+  top: 0px;
   background-size: cover;
   transition: 0.3s cubic-bezier(0.980, -0.850, 0.265, 2.150) 1.7s;
 }
 @media only screen and (max-width: 768px){
  .skw-page-3:not(.active) .skw-page__content .sBStarD{
-   transform: translate(34vw, -11vh) scale(0.0) rotate(0.0);
+   transform: scale(0.0) rotate(0.0);
+   position: relative;
+   left: calc(50% - 25px);
+   top: 0px;
  }
  .skw-page-3.active .skw-page__content .sBStarD{
-   transform: translate(34vw, -11vh) scale(1.7) rotate(40deg);
+   transform: scale(1.7) rotate(40deg);
    background-size: cover;
+   position: relative;
+   left: calc(50% - 25px);
+   top: 0px;
    transition: 0.3s cubic-bezier(0.980, -0.850, 0.265, 2.150) 1.7s;
  }
 }
 
 .skw-page-3:not(.active) .skw-page__content .sBStarE{
-  transform: translate(8vw, -5vh) scale(0.0) rotate(0.0);
+  transform: scale(0.0) rotate(0.0);
+  position: relative;
+  left: 150px;
+  top: -35px;
 }
 .skw-page-3.active .skw-page__content .sBStarE{
-  transform: translate(6vw, -11vh) scale(2) rotate(40deg);
+  transform: scale(2) rotate(40deg);
+  position: relative;
+  left: 150px;
+  top: -35px;
   background-size: cover;
   transition: 0.38s cubic-bezier(0.680, -1.350, 0.265, 3.550) 1.73s;
 }
 @media only screen and (max-width: 768px){
  .skw-page-3:not(.active) .skw-page__content .sBStarE{
-   transform: translate(8vw, -5vh) scale(0.0) rotate(0.0);
+   transform: scale(0.0) rotate(0.0);
+   position: relative;
+   left: calc(50% - 75px);
+   top: -35px;
  }
  .skw-page-3.active .skw-page__content .sBStarE{
-   transform: translate(6vw, -11vh) scale(2) rotate(40deg);
+   transform: scale(2) rotate(40deg);
    background-size: cover;
+   position: relative;
+   left: calc(50% - 75px);
+   top: -35px;
    transition: 0.38s cubic-bezier(0.680, -1.350, 0.265, 3.550) 1.73s;
  }
 }
 
 .skw-page-3:not(.active) .skw-page__content .sBStarF{
-  transform: translate(14vw, 1vh) scale(0.0) rotate(0.0);
+  transform: scale(0.0) rotate(0.0);
+  position: relative;
+  left: 350px;
+  top: -400px;
 }
 .skw-page-3.active .skw-page__content .sBStarF{
-  transform: translate(14vw, 1vh) scale(0.75) rotate(110deg);
+  transform: scale(0.75) rotate(110deg);
+  position: relative;
+  left: 350px;
+  top: -400px;
   background-size: cover;
   transition: 0.34s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.78s;
 }
 @media only screen and (max-width: 768px){
  .skw-page-3:not(.active) .skw-page__content .sBStarF{
-   transform: translate(14vw, 1vh) scale(0.0) rotate(0.0);
+   transform: scale(0.0) rotate(0.0);
+   position: relative;
+   left: calc(50% + 100px);
+   top: -400px;
+   background-size: cover;
  }
  .skw-page-3.active .skw-page__content .sBStarF{
-   transform: translate(14vw, 1vh) scale(0.75) rotate(110deg);
+   transform: scale(0.75) rotate(110deg);
+   background-size: cover;
+   position: relative;
+   left: calc(50% + 100px);
+   top: -400px;
    background-size: cover;
    transition: 0.34s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.78s;
  }
 }
 
 .skw-page-3:not(.active) .skw-page__content .sBStarG{
-  transform: translate(30vw, -84vh) scale(0.0) rotate(0.0);
+  transform: scale(0.0) rotate(0.0);
+  position: relative;
+  left: 325px;
+  top: -450px;
 }
 .skw-page-3.active .skw-page__content .sBStarG{
-  transform: translate(30vw, -84vh) scale(1.75) rotate(-30deg);
+  transform: scale(1.75) rotate(-30deg);
+  position: relative;
+  left: 325px;
+  top: -450px;
   background-size: cover;
   transition: 0.41s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.98s;
 }
 @media only screen and (max-width: 768px){
  .skw-page-3:not(.active) .skw-page__content .sBStarG{
-   transform: translate(30vw, -84vh) scale(0.0) rotate(0.0);
+   transform: scale(0.0) rotate(0.0);
+   position: relative;
+   left: calc(50% + 75px);
+   top: -450px;
  }
  .skw-page-3.active .skw-page__content .sBStarG{
-   transform: translate(30vw, -84vh) scale(1.75) rotate(-30deg);
+   transform: scale(1.75) rotate(-30deg);
    background-size: cover;
+   position: relative;
+   left: calc(50% + 75px);
+   top: -450px;
    transition: 0.41s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.98s;
  }
 }
@@ -698,12 +792,14 @@ h3{
   border-radius: 20px 90px 90px 20px;
   overflow: hidden;
   border: 15px solid #063;
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   position: absolute;
+  top: 50%;
   flex-shrink: 0;
   z-index: 99;
-  transform: translate(-1vw, 20vh) scale(0.5);
+  transform: scale(0.5);
+  transform-origin: 50% -50%;
 }
 .navigation-tab-item {
   display: flex;
