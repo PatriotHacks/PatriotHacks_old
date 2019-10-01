@@ -186,13 +186,13 @@ h3{
 }
 .skw-page__half--left .skw-page__content {
   padding-left: 25%;
-  padding-right: 15%;
+  padding-right: 25%;
   -webkit-transform-origin: 100% 0;
       -ms-transform-origin: 100% 0;
           transform-origin: 100% 0;
 }
 .skw-page__half--right .skw-page__content {
-  padding-left: 15%;
+  padding-left: 25%;
   padding-right: 25%;
   -webkit-transform-origin: 0 100%;
       -ms-transform-origin: 0 100%;
