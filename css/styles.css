@@ -186,13 +186,13 @@ h3{
 }
 .skw-page__half--left .skw-page__content {
   padding-left: 25%;
-  padding-right: 25%;
+  padding-right: 15%;
   -webkit-transform-origin: 100% 0;
       -ms-transform-origin: 100% 0;
           transform-origin: 100% 0;
 }
 .skw-page__half--right .skw-page__content {
-  padding-left: 25%;
+  padding-left: 15%;
   padding-right: 25%;
   -webkit-transform-origin: 0 100%;
       -ms-transform-origin: 0 100%;
@@ -400,15 +400,15 @@ h3{
 }
 .skw-page-3.active .skw-page__content{
   position: absolute;
-  display: initial;
+  display: flex;
   left: 0px;
   right: 0;
   top: 0;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   z-index: 1;
   transform: skewX(0deg);
-  margin: 25vh 0;
+  margin: 0;
   padding: 0 0 0 65px;
   transition: 1.5s;
 }
@@ -440,6 +440,12 @@ h3{
   transition: 1s width 0.85s, 0.5s height 1.35s ease-in;
   margin: auto;
 }
+
+.skw-page-3.active .skw-page__content .scheduleContent {
+	height: 8vh;
+	max-height: 42px;
+}
+
 /*
 .skw-page-4 .skw-page__half--left .skw-page__content {
   background-image: linear-gradient(black, transparent, black), url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/44783322_2156965621209977_2687982355666173952_o.jpg?_nc_cat=105&_nc_oc=AQmF8muthbI_7MJ5WTpseQk0iDheOIPrKejlFNoOCbNBV50q2BwdVpWDoxWnbNgIJas&_nc_ht=scontent-iad3-1.xx&oh=d0f3117458b471f4675fbcdf1c28aefa&oe=5DF15F5A");
@@ -543,7 +549,6 @@ h3{
 }
 .skw-page-3.active .skw-page__content p{
   width: 100%;
-  margin-top: 20px;
   font-size: 0.75rem;
   text-align: center;
   transition: 0.5s cubic-bezier(1.000, 0, 0.045, 1) 2s;
@@ -553,14 +558,14 @@ h3{
   transform: scale(0.0) rotate(0.0);
   position: relative;
   left: 250px;
-  top: 10px;
+  top: 15px;
 }
 .skw-page-3.active .skw-page__content .sBStarA{
   transform: scale(1.2) rotate(90deg);
   background-size: cover;
   position: relative;
   left: 250px;
-  top: 10px;
+  top: 15px;
   transition: 0.45s cubic-bezier(0.680, -0.950, 0.265, 2.550) 2.1s;
 }
 @media only screen and (max-width: 768px){
@@ -568,14 +573,14 @@ h3{
    transform: scale(0.0) rotate(0.0);
    position: relative;
    left: calc(50% + 25px);
-   top: 10px;
+   top: 15px;
  }
  .skw-page-3.active .skw-page__content .sBStarA{
    transform: scale(1.2) rotate(90deg);
    background-size: cover;
    position: relative;
    left: calc(50% + 25px);
-   top: 10px;
+   top: 15px;
    transition: 0.45s cubic-bezier(0.680, -0.950, 0.265, 2.550) 2.1s;
  }
 }
@@ -584,14 +589,14 @@ h3{
   transform: scale(0.0) rotate(0.0);
   position: relative;
   left: 115px;
-  top: -350px;
+  top: 45px;
 }
 .skw-page-3.active .skw-page__content .sBStarB{
   transform: scale(1.2) rotate(90deg);
   background-size: cover;
   position: relative;
   left: 115px;
-  top: -350px;
+  top: 45px;
   transition: 0.31s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.75s;
 }
 @media only screen and (max-width: 768px){
@@ -599,14 +604,14 @@ h3{
    transform: scale(0.0) rotate(0.0);
    position: relative;
    left: calc(50% - 115px);
-   top: -350px;
+   top: 45px;
  }
  .skw-page-3.active .skw-page__content .sBStarB{
    transform: scale(1.2) rotate(90deg);
    background-size: cover;
    position: relative;
    left: calc(50% - 115px);
-   top: -350px;
+   top: 45px;
    transition: 0.31s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.75s;
  }
 }
@@ -615,14 +620,14 @@ h3{
   transform: scale(0.0) rotate(0.0);
   position: relative;
   left: 165px;
-  top: -385px;
+  top: 10px;
 }
 .skw-page-3.active .skw-page__content .sBStarC{
   transform: scale(1.1) rotate(-10deg);
   background-size: cover;
   position: relative;
   left: 165px;
-  top: -385px;
+  top: 10px;
   transition: 0.37s cubic-bezier(0.680, -0.750, 0.265, 1.350) 1.925s;
 }
 @media only screen and (max-width: 768px){
@@ -630,14 +635,14 @@ h3{
    transform: scale(0.0) rotate(0.0);
    position: relative;
    left: calc(50% - 85px);
-   top: -385px;
+   top: 10px;
  }
  .skw-page-3.active .skw-page__content .sBStarC{
    transform: scale(1.1) rotate(-10deg);
    background-size: cover;
    position: relative;
    left: calc(50% - 85px);
-   top: -385px;
+   top: 10px;
    transition: 0.37s cubic-bezier(0.680, -0.750, 0.265, 1.350) 1.925s;
  }
 }
@@ -646,13 +651,13 @@ h3{
   transform: scale(0.0) rotate(0.0);
   position: relative;
   left: 200px;
-  top: 0px;
+  top: 20px;
 }
 .skw-page-3.active .skw-page__content .sBStarD{
   transform: scale(1.7) rotate(40deg);
   position: relative;
   left: 200px;
-  top: 0px;
+  top: 20px;
   background-size: cover;
   transition: 0.3s cubic-bezier(0.980, -0.850, 0.265, 2.150) 1.7s;
 }
@@ -661,14 +666,14 @@ h3{
    transform: scale(0.0) rotate(0.0);
    position: relative;
    left: calc(50% - 25px);
-   top: 0px;
+   top: 20px;
  }
  .skw-page-3.active .skw-page__content .sBStarD{
    transform: scale(1.7) rotate(40deg);
    background-size: cover;
    position: relative;
    left: calc(50% - 25px);
-   top: 0px;
+   top: 20px;
    transition: 0.3s cubic-bezier(0.980, -0.850, 0.265, 2.150) 1.7s;
  }
 }
@@ -677,13 +682,13 @@ h3{
   transform: scale(0.0) rotate(0.0);
   position: relative;
   left: 150px;
-  top: -35px;
+  top: -10px;
 }
 .skw-page-3.active .skw-page__content .sBStarE{
   transform: scale(2) rotate(40deg);
   position: relative;
   left: 150px;
-  top: -35px;
+  top: -10px;
   background-size: cover;
   transition: 0.38s cubic-bezier(0.680, -1.350, 0.265, 3.550) 1.73s;
 }
@@ -692,14 +697,14 @@ h3{
    transform: scale(0.0) rotate(0.0);
    position: relative;
    left: calc(50% - 75px);
-   top: -35px;
+   top: -10px;
  }
  .skw-page-3.active .skw-page__content .sBStarE{
    transform: scale(2) rotate(40deg);
    background-size: cover;
    position: relative;
    left: calc(50% - 75px);
-   top: -35px;
+   top: -10px;
    transition: 0.38s cubic-bezier(0.680, -1.350, 0.265, 3.550) 1.73s;
  }
 }
@@ -708,13 +713,13 @@ h3{
   transform: scale(0.0) rotate(0.0);
   position: relative;
   left: 350px;
-  top: -400px;
+  top: 20px;
 }
 .skw-page-3.active .skw-page__content .sBStarF{
   transform: scale(0.75) rotate(110deg);
   position: relative;
   left: 350px;
-  top: -400px;
+  top: 20px;
   background-size: cover;
   transition: 0.34s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.78s;
 }
@@ -723,7 +728,7 @@ h3{
    transform: scale(0.0) rotate(0.0);
    position: relative;
    left: calc(50% + 100px);
-   top: -400px;
+   top: 20px;
    background-size: cover;
  }
  .skw-page-3.active .skw-page__content .sBStarF{
@@ -731,7 +736,7 @@ h3{
    background-size: cover;
    position: relative;
    left: calc(50% + 100px);
-   top: -400px;
+   top: 20px;
    background-size: cover;
    transition: 0.34s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.78s;
  }
@@ -741,13 +746,13 @@ h3{
   transform: scale(0.0) rotate(0.0);
   position: relative;
   left: 325px;
-  top: -450px;
+  top: -15px;
 }
 .skw-page-3.active .skw-page__content .sBStarG{
   transform: scale(1.75) rotate(-30deg);
   position: relative;
   left: 325px;
-  top: -450px;
+  top: -15px;
   background-size: cover;
   transition: 0.41s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.98s;
 }
@@ -756,14 +761,14 @@ h3{
    transform: scale(0.0) rotate(0.0);
    position: relative;
    left: calc(50% + 75px);
-   top: -450px;
+   top: -15px;
  }
  .skw-page-3.active .skw-page__content .sBStarG{
    transform: scale(1.75) rotate(-30deg);
    background-size: cover;
    position: relative;
    left: calc(50% + 75px);
-   top: -450px;
+   top: -15px;
    transition: 0.41s cubic-bezier(0.680, -0.950, 0.265, 2.550) 1.98s;
  }
 }
