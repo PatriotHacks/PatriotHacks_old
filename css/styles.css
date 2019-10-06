@@ -45,6 +45,16 @@ h3{
   width: fit-content;
 }
 
+.sr{
+	display: none;
+}
+
+@media speech{
+	.sr{
+		display: none;
+	}
+}
+
 .headerImage{
   width: 80%;
 }
@@ -301,6 +311,11 @@ h3{
 }
 .skw-page__break{
   height: 50px;
+}
+@media only screen and (max-width: 768px){
+	.skw-page__break{
+	  height: 20px;
+	}
 }
 .skw-page__link {
   color: #FFA0A0;
@@ -951,4 +966,24 @@ h3{
 	#faq1, #faq2, #faq3, #faq4, #faq5, #faq6, #faq7, #faq8{
 		transform: none;
 	}
+}
+
+/* Sponsors */
+.sponsorDisplay{
+	width: 90%;
+	margin: 5px 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.cohost{
+	height: 80px;
+	width: 575px;
+	margin: 10px 25px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
