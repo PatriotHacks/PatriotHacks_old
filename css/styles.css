@@ -483,6 +483,13 @@ html input[disabled] {
 	text-decoration: none;
 }
 
+.button.disabled{
+	color: #006633;
+	background: white;
+	border: 1px solid white;
+	box-shadow: none;
+}
+
 .button-link {
   color: #2cc7c1;
   text-decoration: underline;
