@@ -818,7 +818,7 @@ a {
 
 .textbox{
 	text-align: center;
-
+	margin-top: 500px;
 	width: 100%;
 	padding: 0 20%;
 }
@@ -1136,11 +1136,11 @@ section{
   background-image: linear-gradient(174deg, rgba(255, 255, 255, 0.001) 25%, #006633 25% 75%, rgba(255, 255, 255, 0.001) 75%);
 
   /*transform: translate(0px, -30%);*/
-  margin-top: 250px;
+  margin-top: -250px;
 }
 
 #aboutUs>.textbox{
-  margin: 600px 0;
+  margin: 350px 0;
 }
 
 @media only screen and (max-width: 768px){
