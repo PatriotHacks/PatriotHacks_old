@@ -818,6 +818,7 @@ a {
 
 .textbox{
 	text-align: center;
+
 	width: 100%;
 	padding: 0 20%;
 }
@@ -1139,7 +1140,7 @@ section{
 }
 
 #aboutUs>.textbox{
-  margin: 100px 0;
+  margin: -350px 0;
 }
 
 @media only screen and (max-width: 768px){
