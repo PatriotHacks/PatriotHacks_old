@@ -1,519 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>PatriotHacks</title>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>PatriotHacks</title>
 
-	<meta name="description" content="">
-	<meta name="theme-color" content="#006633">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="theme-color" content="#006633">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!--favicon-->
-	<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+		<!--favicon-->
+		<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
 
-	<!--Page styling-->
-	<link rel="stylesheet" href="css/styles.css">
-	<!--Stylized icons from font-awesome-->
-	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-	
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<!--Page styling-->
+		<link rel="stylesheet" href="css/styles.css">
+		<!--Stylized icons from font-awesome-->
+		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-	<!-- Scripts -->
+		<!-- Scripts -->
 
-</head>
+	</head>
 
-<body>
-	<section id="home">
-		<div class = "banner-heading-wrapper">
-			<div class = "logo">
-				<h1 id="logo" class="logo">
-					<img style="width: 100%;" src="img/logo-2018-hi-res-green.png">
-				</h1>
-			</div>
-			<!-- <h2 class="banner-heading">October 18-20, 2019</h2> -->
-			<h2 class="banner-heading">George Mason University - MARCH 2021 </h2>
-			<h2 class="bodytext">Check out our social media for updates on our Fall 2020-Spring 2021 plans! Links can be found below.</h2>
-			<div class="banner-heading banner-heading-buttons">
-				<ul class="button-heading-fit">
-					<!-- <li style="list-style: none;">
-						<a href="https://docs.google.com/forms/d/1etR57EPWWd9gj7lapyyBcG8iPp5sQYqOk6Yi2yhNj9Y/viewform?edit_requested=true" class="button">
-							Become an Organizer
-						</a>
-					</li>
-					<li style="list-style: none;">
-						<a target="_blank" href="https://hina48.typeform.com/to/gowvod" class="button">
-							Become a Volunteer
-						</a>
-					</li>
-					<li style="list-style: none;">
-						<a target="_blank" href="https://hina48.typeform.com/to/zmgDd8" class="button">
-							Become a Mentor
-						</a>
-					</li> -->
-				</ul>	
-			</div>
-			<h2 class="bodytext" style="font-size: medium; font-color: black;"></h3>
-		</div>
-		<div class = "canvas-wrapper">
-			<div class="canvas-clamp"
-				 style="
-				     /*
-				     background-image: url(img/icons/proto_logo_blur.png);
-					 background-size: contain;
-					 background-repeat: no-repeat;
-				     background-position: center;
-				     */
-			">
-					<canvas id = "canvas" style="max-width: 100%; max-height: 100%; width: inherit;"></canvas>
-			</div>
-		</div>
-	</section>
+	<body>
+		<section>
+			<h1 class="logo"> 
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="img/logo-2018-trans.png"> 
+				<img style="width: 50%; display: block; margin-left: auto; margin-right: auto;" src="img/logo-2018-hi-res-green.png"> 
+			</h1>
 
-	<section id="About Us">
-		<div class="textbox">
-			<h2>What is PatriotHacks?</h2>
-			<br />
-			<p class="bodytext">PatriotHacks is a collegiate hackathon held at George Mason University in Fairfax, Virginia. For 36 hours, students from across the world will be free to enjoy plenty of workshops, activities, and networking events, along with free swag and food all weekend long. PatriotHacks is a space for innovators to play, learn, break, and revolutionize technology, all while building their resume and making memories that will last a lifetime. The event is free, and no experience is required to attend. Join us in our all new makerspace, also known as the MIX (Mason Innovation exchange)!</p>
-
-			<p class="bodytext">
-				To learn more about the MIX, check out their website at <a href="https://www.mix.gmu.edu/">https://www.mix.gmu.edu/</a>
+			<h2 style="text-align: center" class="banner-heading"> George Mason University - Spring 2021 </h2>
+			
+			<p style="text-align: center; font-size: medium"> We are currently developing the main website for PatriotHacks 2021! In the meantime, please visit us on social media for 
+				information about plans for the hackathon and related events in late 2020 - Spring 2021. <br><br>  
+				We project to have the hackathon virtually in March 2021. However, the format will remain the same as the in-person one. 
+				Stay tuned for more information. 
 			</p>
-		</div>
-	</section>
-
-<!--
-Overview
-	(Friday)
-	5:00pm - Doors open to hackers
-	7:30pm - Opening Ceremonies
-	9:00pm - Hacking Starts
-	(Sunday)
-	9:00am - Hacking Ends
-	1:00pm - Closing Ceremonies
-	2:00pm - Doors Close
--->
-
-	<!-- <section id="schedule">
-		<h2 class="h2">
-				Schedule
-		</h2>
-		<div class="scheduleBody">
-			<h3 class="scheduleHeader">
-					Overview
-			</h3>
-			<div class="scheduleOverview">
-				<div class="scheduleItemHeader">
-					<h4>Friday</h4>
-				</div>
-				<div class="scheduleItem">
-					<h4>5:00pm</h4>	<p>Doors Open to Hackers</p>
-				</div>
-				<div class="scheduleItem">
-					<h4>7:30pm</h4>	<p>Opening Ceremonies</p>
-				</div>
-				<div class="scheduleItem">
-					<h4>9:00pm</h4>	<p>Hacking Starts</p>
-				</div>
-				
-				<div class="scheduleBreak"></div>
-
-				<div class="scheduleItemHeader">
-					<h4>Sunday</h4>
-				</div>
-				<div class="scheduleItem">
-					<h4>9:00am</h4>	<p>Hacking Ends</p>
-				</div>
-				<div class="scheduleItem">
-					<h4>1:00pm</h4>	<p>Closing Ceremonies</p>
-				</div>
-				<div class="scheduleItem">
-					<h4>2:00pm</h4>	<p>Doors Close</p>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	
-	<!-- <hr class="hr"> -->
-	<section id="faq">
-		<h2 class="h2">
-				FAQ
-		</h2>
-		<nav class="faq-nav textbox">
-			<ul id="metismenu">
-				<div class="faq_row" style="float: left;">
-					<li class="faq_itm">
-						<a class="" href="#"
-						aria-expanded="false">
-							Do I need to be a student to attend?
-						</a>
-						<ul aria-expanded="false">
-							Yes. Only students who are currently enrolled at a
-								college/university or have graduated within the past 12
-								months are eligible to attend. Must also be 18 years or
-								older. All disciplines are welcome!
-						</ul>
-					</li>
-					
-					<li class="faq_itm">
-						<a class="" href="#"
-						aria-expanded="false">
-							How much does it cost?
-						</a>
-						<ul aria-expanded="false">
-							Nothing! Attending PatriotHacks is free. Plus, we
-								provide you food, swag, and prizes!
-						</ul>
-					</li>
-					
-					<li class="faq_itm">
-						<a class="" href="#"
-						aria-expanded="false">
-							What should I bring?
-						</a>
-						<ul aria-expanded="false">
-							Bring your school or government ID. You should
-								definitly also bring your laptop, phone, and chargers. Don't
-								forget any sleeping bags, pillows, toiletries, or a change
-								of clothes.
-						</ul>
-					</li>
-
-					<li class="faq_itm">
-						<a class="" href="#"
-						aria-expanded="false">
-							Can anyone mentor or volunteer?
-						</a>
-						<ul aria-expanded="false">
-							Of course! Whether you're an experienced student or a 
-								working professional, you are welcome to register as a
-								mentor to help students or to host a workshop. You can 
-								also register as a volunteer to help with on-site logistics
-								and organizing.
-						</ul>
-					</li>
-				</div>
-				<div class="faq_row"
-					style="float: right;">
-					<li class="faq_itm">
-						<a class="" href="#"
-						aria-expanded="false">
-							Are hardware hacks allowed?
-						</a>
-						<ul aria-expanded="false">
-							You may bring any hardware to build your hack except
-								for those that may be a fire hazard (soldering iron, etc..).
-								We will also have a hardware lab where you can rent out
-								equipment.
-						</ul>
-					</li>
-					
-					<li class="faq_itm">
-						<a class="" href="#"
-						aria-expanded="false">
-							What if I don't know how to code?
-						</a>
-						<ul aria-expanded="false">
-							No worries! This event welcomes everyone of all
-								skill levels! We will have a bunch of workshops and mentors
-								here to help everyone learn something new, whether you've
-								never touched a line of code or you're a seasoned veteran.
-						</ul>
-					</li>
-					
-					<li class="faq_itm">
-						<a class="" href="#"
-						aria-expanded="false">
-							Do I need to be on a team?
-						</a>
-						<ul aria-expanded="false">
-							No, you can hack by yourself or you can come in with
-								your own team. Teams should be max 4 people, and if you do
-								not have a team, don't worry, we'll have a workshop for you
-								to meet people and find a team.
-						</ul>
-					</li>
-					
-					<li class="faq_itm">
-						<a class="" href="#"
-						aria-expanded="false">
-							Will there be travel reimbursement?
-						</a>
-						<ul aria-expanded="false">
-							We will not have any buses or travel reimbursements this year. We will have 
-							free parking for those that will drive here!
-						</ul>
-					</li>
-				</div>
+		
+			<ul style="list-style: none; text-align: center; font-size: medium">
+				<li><a
+					href="https://www.facebook.com/PatriotHacks-2053166028256604"
+					style="font-size:16px"
+					target="_blank"><i class="fab fa-facebook" style="margin-right: 12px"></i>Facebook</a></li>
+				<li><a
+					href="https://twitter.com/patriothacks"
+					style="font-size:16px"
+					target="_blank"><i class="fab fa-twitter" style="margin-right: 10px"></i>Twitter</a></li>
+				<li><a
+					href="https://www.instagram.com/patriothacks"
+					style="font-size:16px"
+					target="_blank"><i class="fab fa-instagram" style="margin-right: 12px"></i>Instagram</a></li>
+				<li> <a 
+					href="https://www.linkedin.com/company/patriothacks"
+					style="font-size:16px"
+					target="_blank"><i class="fab fa-linkedin" style="margin-right: 12px"></i>LinkedIn</a></li>
 			</ul>
-		</nav>
-	</section>
-	<!-- Sponsors are organized using grid elements, old sponsors are commented out to provide a hint as to how they were formerly arranged -->
+		</section>
 
-	<section id="sponsor">
-		<h2 class="h2" style="font-size: 1.75rem">Event Cohosts</h2>
-		
-		<!-- Event Co-Host -->
-		<!--<h2 class="h2 uppercase" style="text-align: center; padding-bottom: 20px;">Co-hosts</h2>	-->
-		<div class="sponsorDisplay">
-			<a 
-				style="background-image: url(img/logos/CoStar_Group_logo_white.png)" 
-				class="cohost" 
-				target="_blank" 
-				href="https://www.costargroup.com/"
-					alt="CoStarGroup"
-			>
-				<span class="sr">CoStarGroup</span>
-			</a>
-			<a 
-				style="background-image: url(img/logos/CACI_International_logo_white.svg)" 
-				class="cohost" 
-				target="_blank" 
-				href="https://www.caci.com/"
-					alt="CACI"
-			>
-				<span class="sr">CACI</span>
-			</a>
-			<a 
-				style="
-						background-image: url(img/logos/GDIT.svg);
-						background-size: 45%;
-					" 
-				class="cohost" 
-				target="_blank" 
-				href="https://www.gdit.com/"
-					alt="General Dynamics IT"
-			>
-				<span class="sr">General Dynamics IT</span>
-			</a>
-		</div>
-		
-		<h2 class="h2" style="margin-top: 50px;">Our Sponsors</h2>
-		<!-- Event Sponsors -->
-		<!-- <h2 class="h2 uppercase" style="text-align: center; padding-bottom: 20px; padding-top: 20px;">Sponsors</h2>	-->		
-		<div class="sponsorDisplay">
-			<a 
-				style="
-						background-image: url(img/logos/MSS-logo-white-horizontal.png);
-						background-size: 100%;
-						background-position: 50% 50%;
-					" 
-				class="support" 
-				target="_blank" 
-				href="https://www.metrostarsystems.com/"
-				alt="WhiteOps"
-			>
-				<span class="sr">MetroStar Systems</span>
-			</a>
-			<a 
-				style="
-						background-image: url(img/logos/Accenture.svg);
-						background-size: 70%;
-						background-position: 50% 0%;
-					" 
-				class="support" 
-				target="_blank" 
-				href="https://www.accenture.com/en-us"
-				alt="Accenture"
-			>
-				<span class="sr">Accenture</span>
-			</a>
-		</div>
-
-		<!-- Event Support -->
-		<!-- <h2 class="h2 uppercase" style="text-align: center; padding-bottom: 20px; padding-top: 20px;">Support</h2>	-->		
-		<div class="sponsorDisplay">
-			<a 
-				style="background-image: url(img/logos/BattelleBlueLogo.png)" 
-				class="sponsor" 
-				target="_blank" 
-				href="https://www.battelle.org/"
-					alt="Battelle"
-			>
-				<span class="sr">Battelle</span>
-			</a>
-			<a 
-				style="
-						background-image: url(img/logos/WhiteOps.png);
-						background-size: 70%;
-						background-position: 50% 50%;
-					" 
-				class="support" 
-				target="_blank" 
-				href="https://www.whiteops.com/"
-				alt="WhiteOps"
-			>
-				<span class="sr">WhiteOps</span>
-			</a>
-			<a 
-				style="
-						background-image: url(img/logos/IXP_White_CLEAN_2019-09_trimmed.svg);
-						background-size: 70%;
-						background-position: 50% 50%;
-					" 
-				class="support" 
-				target="_blank" 
-				href="https://informedxp.com/"
-				alt="Informed XP"
-			>
-				<span class="sr">Informed XP</span>
-			</a>
-		</div>
-		<div class="sponsorDisplay">
-			<a 
-				style="background-image: url(img/logos/FDM_Group_logo_white.png)" 
-				class="support" 
-				target="_blank" 
-				href="https://www.fdmgroup.com/en-us/home-us/"
-				alt="FDM Group"
-			>
-				<span class="sr">FDM Group</span>
-			</a>
-			<a 
-				style="
-						background-image: url(img/logos/NOVA-Sys-Logo-White.png);
-						background-size: 70%;
-						background-position: 50% 50%;
-					" 
-				class="support" 
-				target="_blank" 
-				href="https://www.nvcc.edu/systemic/"
-				alt="NOVA Systemic"
-			>
-				<span class="sr">NOVA Systemic</span>
-			</a>
-		</div>
-
-		<!-- Event Support, Non-monetary -->
-		<div class="sponsorDisplay">
-			<a
-				style="
-						background-image: url(img/logos/MIXY.png);
-						background-size: 50%;
-						background-position: 50% 50%;
-					" 
-				class="support" 
-				target="_blank" 
-				href="https://www.mix.gmu.edu/"
-				alt="The MIX"
-			>
-				<span class="sr">The MIX</span>
-			</a>
-		</div>
-
-		<!-- Event Support, No Logos -->
-		<!-- <h2 class="h2 uppercase" style="text-align: center; padding-bottom: 20px; padding-top: 20px;">Support</h2>	-->		
-		<div class="sponsorDisplay displayText">
-			Special Thanks to Mark &amp; Sharon Gottlieb
-		</div>
-
-
-		<!-- Sponsor Inquirey Information -->
-		<div class="textbox">
-			<p style="font-size: 1.0em; text-align: center; padding-bottom: 5px">
-				Interested in becoming a sponsor? Email us at <a href="mailto:sponsor@patriothacks.org">sponsor@patriothacks.org</a>
-			</p>
-			<p style="font-size: 1.0em; text-align: center;">
-				For more information about becoming a Sponsor, see our <a target="_blank" href="assets/pdf/SponsorshipFlyer.pdf">Sponsorship Information Flyer</a>
-			</p>
-		</div>
-	</section>
-
-	<!-- Map, section opacity is 0 to hide map, reveal later -->
-<script>
-/*
-	<section id="location" style="opacity: 0">
-	<div class="event-location-block content-block">
-
-		<h2 class="sr">Event Location</h2>
-
-		<div id="map" class="map">
-			<div style="height: 560px;" class="location-box-container">
-				<div class="location-box pad-20" style="width: 100%">
-					<h2 class="fs-6 strong" style="width: 100%; height: 20px">George Mason University</h2>
-					<address class="location">
-						MIX@Fenwick <br> 4400 University Drive, Fenwick A-Wing, MSN:
-						1H9, <br>Fairfax, Virginia 22030
-					</address>
-					<span class="block text-right"> <a
-						class="icon icon-right arrow-right uppercase"
-						href="http://mapq.st/2EeXN17"
-						target="_blank"> Get directions</a>
-					</span>
-					<iframe height="400" width="100%" border="0" marginwidth="0" marginheight="0" src="https://www.mapquest.com/embed?center=38.832758654788776,-77.3072075843811&zoom=16&maptype=undefined"></iframe>
-				</div>
+			<!-- Sponsor Inquiry Information -->
+			<div class="textbox">
+				<p style="font-size: 1.0em; text-align: center; padding-bottom: 5px">
+					Interested in becoming a sponsor? Email us at <a href="mailto:sponsor@patriothacks.org">sponsor@patriothacks.org</a>
+				</p>
+				<p style="font-size: 1.0em; text-align: center;">
+					For more information about becoming a Sponsor, see our <a target="_blank" href="assets/pdf/SponsorshipFlyer.pdf">Sponsorship Information Flyer</a>
+				</p>
 			</div>
-		</div>
-	</div>
-	</section>
-*/
-</script>
+		</section>
 
-	<section id="contact">
-		<div class="footerContainer">
-			<div class="footerFlexBox">
-				<div class="footerLarge">
-					<h3 class="fs-4 h-white">
-						<strong>Contact Us</strong>
-					</h3>
-					<p class="no-margin">
-						For more information, email <a
-							href="mailto:team@patriothacks.org">team@patriothacks.org</a>
-					</p>
-				</div>
+		<!---->
+		<script src="js/vendor/jquery-1.11.3.min.js"></script>
+		<script src="js/vendor/jquery.mobile.custom.min.js"></script>
+		
+		<script src="js/vendor/webfontloader.js"></script>
 
-				<div class="footerSmall">
-					<h3 class="fs-4 h-white">
-						<strong>Follow Us</strong>
-					</h3>
-					<ul style="list-style: none;">
-						<li><a
-							href="https://www.facebook.com/PatriotHacks-2053166028256604"
-							style="font-size:16px"
-							target="_blank"><i class="fab fa-facebook" style="margin-right: 12px"></i>Facebook</a></li>
-						<li><a
-							href="https://twitter.com/patriothacks"
-							style="font-size:16px"
-							target="_blank"><i class="fab fa-twitter" style="margin-right: 10px"></i>Twitter</a></li>
-						<li><a
-							href="https://www.instagram.com/patriothacks"
-							style="font-size:16px"
-							target="_blank"><i class="fab fa-instagram" style="margin-right: 12px"></i>Instagram</a></li>
-						<li> <a 
-							href="https://www.linkedin.com/company/patriothacks"
-							style="font-size:16px"
-							target="_blank"><i class="fab fa-linkedin" style="margin-right: 12px"></i>LinkedIn</a></li>
-					</ul>
-				</div>
+		<script src="js/vendor/bootstrap.transition.js"></script>
+		<script src="js/vendor/bootstrap.collapse.js"></script>
+		<script src="js/vendor/bootstrap.dropdown.js"></script>
+		<script src="js/vendor/bootstrap.tab.js"></script>
 
-				<div class="footerLarge">
-					<h3 class="fs-4 h-white">
-						<strong>Code of Conduct</strong>
-					</h3>
-					<ul>
-						If you intend to participate in this event you must agree to the
-						<a href="2019-20-Code-of-Student-Conduct-1.pdf"
-							target="_blank">George Mason Student Code of Conduct</a>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+		<link rel="stylesheet" href="https://unpkg.com/metismenu/dist/metisMenu.min.css">
+		<script src="https://unpkg.com/metismenu"></script>
 
-	<script src="js/vendor/jquery-1.11.3.min.js"></script>
-	<script src="js/vendor/jquery.mobile.custom.min.js"></script>
-	
-	<script src="js/vendor/webfontloader.js"></script>
-
-	<script src="js/vendor/bootstrap.transition.js"></script>
-	<script src="js/vendor/bootstrap.collapse.js"></script>
-	<script src="js/vendor/bootstrap.dropdown.js"></script>
-	<script src="js/vendor/bootstrap.tab.js"></script>
-
-	<link rel="stylesheet" href="https://unpkg.com/metismenu/dist/metisMenu.min.css">
-	<script src="https://unpkg.com/metismenu"></script>
-
-	<script src="js/default.js"></script>
-	<script src="js/dots.js"></script>
-</body>
+		<script src="js/default.js"></script>
+		<script src="js/dots.js"></script>
+	</body>
 </html>
