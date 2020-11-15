@@ -1,0 +1,1 @@
+This is the code base for the 2021 PatriotHacks website and related events including the main hackathon event in Spring 2021. This is the temporary location until a new repository can be established. 
